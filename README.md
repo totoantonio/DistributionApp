@@ -46,6 +46,33 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ---
 
+## Changelog
+
+### Coming Next — Version 1.0.1 (Build 23)
+
+**Estimated release: November 15, 2026** · A refinement build — UI and UX polish only, no changes to your data.
+
+1. **Phone-friendly filters** — Search, Status and date filters fit neatly on small screens on every list.
+2. **Sales Order printout refresh** — the printed Sales Order matches the clean layout of the new Sales Invoice.
+3. **Remembers your view** — each list keeps your last filters and date range when you come back to it.
+4. **Friendlier empty pages** — clear guidance and a one-click next step when a list has no records yet.
+5. **Smoother animations** — more consistent opening, closing and loading effects across the app.
+
+### Version 1.0.1 (Build 22) — Current · October 8, 2026
+
+The first public release.
+
+- **Sales orders** — customer discount applied automatically from SRP, with a margin check while you build the order.
+- **Sales Invoice printout** — standard layout with SO number, U/P and discount columns, VAT breakdown and Total Amount Due.
+- **Approvals** — a soft chime and badge when something new needs your approval; return to the list after each decision.
+- **Checks** — Checks Issued report with Today / Next 7 / Next 30 Days, and a Cleared switch on every check.
+- **Outside-office access** — staff can connect securely from their phones using Tailscale.
+- **Start Up** — the app can start by itself when the computer turns on.
+- **Safe updates** — your data is kept separately, so updating never touches it.
+- **Check for Updates** — the app tells you when a new version is out.
+
+---
+
 ## Need Help?
 
 Email **totoantonio@gmail.com**
