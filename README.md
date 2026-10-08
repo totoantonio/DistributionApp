@@ -1,4 +1,6 @@
-# Distribution App
+<p align="center"><img src="assets/icon.png" alt="Distribution App icon" width="128" height="128"></p>
+
+<h1 align="center">Distribution App</h1>
 
 Wholesale distribution management for small businesses in the Philippines — customers, sales orders, invoices,
 deliveries, stock, payables, checks, payroll and reports. It runs on one computer in your office; your staff use it
