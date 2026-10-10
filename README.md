@@ -46,6 +46,24 @@ in their browser.
 
 ---
 
+## Pricing
+
+One flat price per company — **no per-user fees**. Your data stays on your own computer, and the app works even when the internet is down.
+
+| Plan | Users | Monthly | Yearly (2 months free) | One-time purchase |
+|---|---|---|---|---|
+| **Startup** | 3 | ₱990 | ₱9,900 | ₱19,900 |
+| **Enterprise** | 10 | ₱1,990 | ₱19,900 | ₱39,900 |
+| **Superuser** | 20 | ₱2,990 | ₱29,900 | ₱59,900 |
+
+- **Free 15-day trial** with up to 20 users — no payment needed to start.
+- **Monthly and yearly plans** include every update and support while subscribed.
+- **One-time purchase** is yours to keep forever, with 1 year of updates and support included. After that, updates and
+  support are optional: Startup ₱3,990 · Enterprise ₱7,990 · Superuser ₱11,990 per year. Skip it and the app keeps working.
+- **Founding customers:** the first customers get 40% off, locked in for life.
+- **Optional setup help:** remote onboarding (price list import, staff phones, remote access) — about ₱5,000.
+- **Support:** Viber or email, business hours, reply within 1 business day.
+
 ## How to Update
 
 Open **Settings → About** and click **Install Update**. The app checks the download is genuine,
@@ -84,13 +102,17 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Version 1.1.6 (Build 29) — Current · October 10, 2026
+### Version 1.2.0 (Build 30) — Current · October 10, 2026
 
 > **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
-- **● Running** with live network speed at the top of every page.
+- **Offline salesman orders** — no signal? The order waits on the phone and sends itself later.
+- **Remote Access** — a secure address for staff phones, turned on with one button, with a QR code.
+- **Opens without signal** — the Home Screen app shows its start page even offline.
+- **Delivery Receipt switch** on invoices; drivers can print the Delivery Receipt.
+- **Staff Access redesigned**, a new phone tab bar for approvers, and many phone and desktop improvements.
 
-[Full list of changes →](../../releases/tag/v1.1.6-build29)
+[Full list of changes →](../../releases/tag/v1.2.0-build30)
 
 ---
 
