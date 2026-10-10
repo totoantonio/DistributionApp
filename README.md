@@ -8,6 +8,21 @@ in their browser.
 
 **[Download the latest version →](../../releases/latest)**
 
+## What It Does
+
+- **Sales** — customers with credit terms and limits, sales orders with approval, automatic invoices, delivery tracking
+  (Packed → For Delivery → Delivered), payments, post-dated checks, credit memos and statements of account.
+- **Inventory** — products in units and cases, stock arrivals with average cost, suggested purchase orders, price list
+  import (PDF, Excel or CSV), stock adjustments and days of stock left.
+- **Money** — receivables and payables by age, supplier payments, expenses, a 4-week cash forecast, income statement,
+  BIR tax estimates, and payroll with government contributions and payslips.
+- **Reports** — sales by supplier, brand, product or customer, collection forecast, salesman performance, CSV export.
+- **Printouts** — A4 Sales Invoice, Sales Order, Delivery Receipt, Statement of Account and Price List.
+- **Your team** — roles for Staff, Salesman and Delivery; permissions down to each report and whether someone sees cost or
+  profit; an activity log nobody can edit.
+- **Private and safe** — runs on your own computer, your data never leaves it; daily backups; Privacy Screen;
+  accessibility settings; works on phones.
+
 | Your computer | Download this file |
 |---|---|
 | Mac | `DistributionApp-<version>-mac.zip` |
@@ -50,17 +65,22 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Coming Next — Version 1.0.1 (Build 23)
+### Version 1.1.0 (Build 23) — Current · October 10, 2026
 
-**Estimated release: November 15, 2026** · A refinement build — UI and UX polish only, no changes to your data.
+> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
-1. **Phone-friendly filters** — Search, Status and date filters fit neatly on small screens on every list.
-2. **Sales Order printout refresh** — the printed Sales Order matches the clean layout of the new Sales Invoice.
-3. **Remembers your view** — each list keeps your last filters and date range when you come back to it.
-4. **Friendlier empty pages** — clear guidance and a one-click next step when a list has no records yet.
-5. **Smoother animations** — more consistent opening, closing and loading effects across the app.
+- **Cleaner, calmer design** — everything looks and works more simply, on computers and phones.
+- **My Account** — every user can change their own password and set accessibility.
+- **Accessibility** — Increase Contrast, Reduce Motion, Reduce Transparency, Bold Text, Button Shapes, Display Zoom.
+- **Privacy Screen** — the page blurs when the computer is left alone.
+- **More control over permissions** — choose which reports each person sees, and who sees gross profit.
+- **Phones** — easy-to-read lists, and printouts that look exactly like paper.
+- **Legal & Regulatory** — license, warranty, privacy and open-source notices in Settings.
+- **Many fixes** — safer when two people work at the same time, plus licence protection.
 
-### Version 1.0.1 (Build 22) — Current · October 8, 2026
+[Full list of changes →](../../releases/tag/v1.1.0-build23)
+
+### Version 1.0.1 (Build 22) — October 8, 2026
 
 The first public release.
 
@@ -79,4 +99,4 @@ The first public release.
 
 Email **totoantonio@gmail.com**
 
-© 2026 totoantonio
+Copyright © 2026 totoantonio
