@@ -2,8 +2,8 @@
 
 <h1 align="center">Distribution App</h1>
 
-Wholesale distribution management for small businesses in the Philippines — customers, sales orders, invoices,
-deliveries, stock, payables, checks, payroll and reports. It runs on one computer in your office; your staff use it
+Wholesale Distribution Management for small businesses in the Philippines — Customers, Sales Orders, Invoices,
+Deliveries, Stock, Payables, Checks, Payroll and Reports. It runs on one computer in your office; your staff use it
 in their browser.
 
 **[Download the latest version →](../../releases/latest)**
