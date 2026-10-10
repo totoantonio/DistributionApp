@@ -48,8 +48,8 @@ in their browser.
 
 ## How to Update
 
-**From version 1.1.3 on:** open **Settings → About** and click **Install Update**. The app checks the download is genuine,
-saves a backup, keeps the old version and restarts by itself — about a minute. Older versions update once by hand, below.
+Open **Settings → About** and click **Install Update**. The app checks the download is genuine,
+saves a backup, keeps the old version and restarts by itself — about a minute. You can also update by hand, below.
 
 Your data is stored separately from the app, so updating **never deletes or changes your data**.
 Update only the **main computer** (the one running the app). Staff don't need to do anything.
@@ -91,81 +91,6 @@ Update only the **main computer** (the one running the app). Staff don't need to
 - **● Running** with live network speed at the top of every page.
 
 [Full list of changes →](../../releases/tag/v1.1.6-build29)
-
-### Version 1.1.5 (Build 28) — October 10, 2026
-
-> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
-
-- **Install Update progress bar** — see each step until the app reopens.
-- **General Ledger, all accounts** — one CSV for your bookkeeper.
-- **Faster** on phones and over the internet; a computer-name address for staff that survives router changes.
-- **● Running** with live network speed is back in the sidebar.
-
-[Full list of changes →](../../releases/tag/v1.1.5-build28)
-
-### Version 1.1.4 (Build 27) — October 10, 2026
-
-> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
-
-- **Reports page** — coloured icons by group, on the report tiles and the summary cards.
-
-[Full list of changes →](../../releases/tag/v1.1.4-build27)
-
-### Version 1.1.3 (Build 26) — October 10, 2026
-
-> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
-
-- **Fix:** Install Update now installs. If you have 1.1.1 or 1.1.2, download this version once by hand; after that, use Install Update.
-
-[Full list of changes →](../../releases/tag/v1.1.3-build26)
-
-### Version 1.1.2 (Build 25) — October 10, 2026
-
-> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
-
-- **Reports page** — reports as tiles with a short line saying what each one is for.
-
-[Full list of changes →](../../releases/tag/v1.1.2-build25)
-
-### Version 1.1.1 (Build 24) — October 10, 2026
-
-> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
-
-- **Install Update** — one click in Settings → About from now on.
-- **Dark Mode** — Light, Dark or Automatic, per person.
-- **Accounting** — Balance Sheet, Trial Balance, General Journal and General Ledger.
-- **BIR Payments** — record each quarter's tax payment.
-- **Reports page** — report groups as tidy tiles.
-
-[Full list of changes →](../../releases/tag/v1.1.1-build24)
-
-### Version 1.1.0 (Build 23) — October 10, 2026
-
-> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
-
-- **Cleaner, calmer design** — everything looks and works more simply, on computers and phones.
-- **My Account** — every user can change their own password and set accessibility.
-- **Accessibility** — Increase Contrast, Reduce Motion, Reduce Transparency, Bold Text, Button Shapes, Display Zoom.
-- **Privacy Screen** — the page blurs when the computer is left alone.
-- **More control over permissions** — choose which reports each person sees, and who sees gross profit.
-- **Phones** — easy-to-read lists, and printouts that look exactly like paper.
-- **Legal & Regulatory** — license, warranty, privacy and open-source notices in Settings.
-- **Many fixes** — safer when two people work at the same time, plus licence protection.
-
-[Full list of changes →](../../releases/tag/v1.1.0-build23)
-
-### Version 1.0.1 (Build 22) — October 8, 2026
-
-The first public release.
-
-- **Sales orders** — customer discount applied automatically from SRP, with a margin check while you build the order.
-- **Sales Invoice printout** — standard layout with SO number, U/P and discount columns, VAT breakdown and Total Amount Due.
-- **Approvals** — a soft chime and badge when something new needs your approval; return to the list after each decision.
-- **Checks** — Checks Issued report with Today / Next 7 / Next 30 Days, and a Cleared switch on every check.
-- **Outside-office access** — staff can connect securely from their phones using Tailscale.
-- **Start Up** — the app can start by itself when the computer turns on.
-- **Safe updates** — your data is kept separately, so updating never touches it.
-- **Check for Updates** — the app tells you when a new version is out.
 
 ---
 
