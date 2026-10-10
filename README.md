@@ -27,14 +27,16 @@ in their browser.
   (Packed → For Delivery → Delivered), payments, post-dated checks, credit memos and statements of account.
 - **Inventory** — products in units and cases, stock arrivals with average cost, suggested purchase orders, price list
   import (PDF, Excel or CSV), stock adjustments and days of stock left.
-- **Money** — receivables and payables by age, supplier payments, expenses, a 4-week cash forecast, income statement,
-  BIR tax estimates, and payroll with government contributions and payslips.
+- **Money** — receivables and payables by age, supplier payments, expenses, a 4-week cash forecast, BIR tax estimates and
+  payments, and payroll with government contributions and payslips.
+- **Accounting** — Income Statement, Balance Sheet, Trial Balance, General Journal and General Ledger, worked out
+  automatically from your sales, payments, stock and expenses — nothing to enter twice.
 - **Reports** — sales by supplier, brand, product or customer, collection forecast, salesman performance, CSV export.
 - **Printouts** — A4 Sales Invoice, Sales Order, Delivery Receipt, Statement of Account and Price List.
 - **Your team** — roles for Staff, Salesman and Delivery; permissions down to each report and whether someone sees cost or
   profit; an activity log nobody can edit.
 - **Everyday comfort** — approvals with a chime, credit holds for overdue customers, signed delivery receipt photos,
-  per-person accessibility settings and a clean layout on phones.
+  Dark Mode, per-person accessibility settings, a clean layout on phones and one-click updates.
 
 | Your computer | Download this file |
 |---|---|
@@ -44,6 +46,9 @@ in their browser.
 ---
 
 ## How to Update
+
+**From version 1.1.1 on:** open **Settings → About** and click **Install Update**. The app checks the download is genuine,
+saves a backup, keeps the old version and restarts by itself — about a minute. Older versions update once by hand, below.
 
 Your data is stored separately from the app, so updating **never deletes or changes your data**.
 Update only the **main computer** (the one running the app). Staff don't need to do anything.
@@ -78,7 +83,19 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Version 1.1.0 (Build 23) — Current · October 10, 2026
+### Version 1.1.1 (Build 24) — Current · October 10, 2026
+
+> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+
+- **Install Update** — one click in Settings → About from now on.
+- **Dark Mode** — Light, Dark or Automatic, per person.
+- **Accounting** — Balance Sheet, Trial Balance, General Journal and General Ledger.
+- **BIR Payments** — record each quarter's tax payment.
+- **Reports page** — report groups as tidy tiles.
+
+[Full list of changes →](../../releases/tag/v1.1.1-build24)
+
+### Version 1.1.0 (Build 23) — October 10, 2026
 
 > **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
