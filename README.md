@@ -47,7 +47,7 @@ in their browser.
 
 ## How to Update
 
-**From version 1.1.1 on:** open **Settings → About** and click **Install Update**. The app checks the download is genuine,
+**From version 1.1.3 on:** open **Settings → About** and click **Install Update**. The app checks the download is genuine,
 saves a backup, keeps the old version and restarts by itself — about a minute. Older versions update once by hand, below.
 
 Your data is stored separately from the app, so updating **never deletes or changes your data**.
@@ -83,7 +83,15 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Version 1.1.2 (Build 25) — Current · October 10, 2026
+### Version 1.1.3 (Build 26) — Current · October 10, 2026
+
+> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+
+- **Fix:** Install Update now installs. If you have 1.1.1 or 1.1.2, download this version once by hand; after that, use Install Update.
+
+[Full list of changes →](../../releases/tag/v1.1.3-build26)
+
+### Version 1.1.2 (Build 25) — October 10, 2026
 
 > **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
