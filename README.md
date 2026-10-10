@@ -71,7 +71,7 @@ One flat price per company — **no per-user fees**. Your data stays on your own
 - **Free 15-Day Trial** with up to 20 users — no payment needed to start.
 - **Monthly and Yearly Plans** include every update and support while subscribed.
 - **One-Time Purchase** is yours to keep forever, with 1 year of updates and support included. After that, updates and support are optional: Startup ₱3,990 · Enterprise ₱7,990 · Superuser ₱11,990 per year. Skip it and the app keeps working.
-- **Founding Customers:** The first customers get 40% off, locked in for life.
+- **Founding Customers:** The first customers get 20% off, locked in for life.
 - **Optional Setup Help:** Remote onboarding (price list import, staff phones, remote access) — about ₱5,000.
 - **Support:** Viber or email, business hours, reply within 1 business day.
 
