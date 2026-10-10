@@ -84,7 +84,15 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Version 1.1.5 (Build 28) — Current · October 10, 2026
+### Version 1.1.6 (Build 29) — Current · October 10, 2026
+
+> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+
+- **● Running** with live network speed at the top of every page.
+
+[Full list of changes →](../../releases/tag/v1.1.6-build29)
+
+### Version 1.1.5 (Build 28) — October 10, 2026
 
 > **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
