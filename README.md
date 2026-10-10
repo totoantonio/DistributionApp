@@ -8,6 +8,19 @@ in their browser.
 
 **[Download the latest version →](../../releases/latest)**
 
+## Why Distribution App
+
+- **Your data stays with you.** Everything is stored on your own office computer — no cloud, no monthly server fee, nothing
+  is sent to us. It keeps working when the internet is down. Want access outside the office? Connect privately with
+  Tailscale; the app is never open to the public internet.
+- **Safe.** Every user has their own login and only the permissions you give them. Every change is written to an activity
+  log that nobody can edit — not even an admin. Wrong passwords lock the account for a few minutes. A backup is made every
+  day and every time the app quits. The page blurs when a computer is left alone. The Mac app is signed and notarized by Apple.
+- **Fast.** One small program, no installation of databases or servers. Pages open instantly, even with a year of data
+  (tested with 1,000 customers and 15,000 sales orders), and it runs well on an older, low-cost computer.
+- **Easy for your team.** Staff open it in the browser on any computer or phone in the office — nothing to install on
+  their devices.
+
 ## What It Does
 
 - **Sales** — customers with credit terms and limits, sales orders with approval, automatic invoices, delivery tracking
@@ -20,8 +33,8 @@ in their browser.
 - **Printouts** — A4 Sales Invoice, Sales Order, Delivery Receipt, Statement of Account and Price List.
 - **Your team** — roles for Staff, Salesman and Delivery; permissions down to each report and whether someone sees cost or
   profit; an activity log nobody can edit.
-- **Private and safe** — runs on your own computer, your data never leaves it; daily backups; Privacy Screen;
-  accessibility settings; works on phones.
+- **Everyday comfort** — approvals with a chime, credit holds for overdue customers, signed delivery receipt photos,
+  per-person accessibility settings and a clean layout on phones.
 
 | Your computer | Download this file |
 |---|---|
