@@ -16,7 +16,8 @@ in their browser.
 - **Safe.** Every user has their own login and only the permissions you give them. Every change is written to an activity
   log that nobody can edit — not even an admin. Wrong passwords lock the account for a few minutes. A backup is made every
   day and every time the app quits. The page blurs when a computer is left alone. The Mac app is signed and notarized by Apple.
-- **Fast.** One small program, no installation of databases or servers. Pages open instantly, even with a year of data
+- **Fast.** One small program, no installation of databases or servers. Pages open in a few milliseconds and travel
+  compressed to phones, even with a year of data
   (tested with 1,000 customers and 15,000 sales orders), and it runs well on an older, low-cost computer.
 - **Easy for your team.** Staff open it in the browser on any computer or phone in the office — nothing to install on
   their devices.
@@ -83,7 +84,18 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Version 1.1.4 (Build 27) — Current · October 10, 2026
+### Version 1.1.5 (Build 28) — Current · October 10, 2026
+
+> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+
+- **Install Update progress bar** — see each step until the app reopens.
+- **General Ledger, all accounts** — one CSV for your bookkeeper.
+- **Faster** on phones and over the internet; a computer-name address for staff that survives router changes.
+- **● Running** with live network speed is back in the sidebar.
+
+[Full list of changes →](../../releases/tag/v1.1.5-build28)
+
+### Version 1.1.4 (Build 27) — October 10, 2026
 
 > **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
