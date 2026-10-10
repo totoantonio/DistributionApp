@@ -2,26 +2,45 @@
 
 <h1 align="center">Distribution App</h1>
 
-Wholesale Distribution Management for small businesses in the Philippines — Customers, Sales Orders, Invoices, Deliveries, Stock, Payables, Checks, Payroll, and Reports. It runs on one computer in your office; your staff use it in their browser.
+<p align="center"><b>Run Your Whole Distribution Business From One App — Orders, Deliveries, Collections, Stock, and Books.</b><br>Made for Philippine distributors. One flat price. Your data never leaves your office.</p>
 
 <p align="right"><a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
 
-## Why Distribution App
+## From Order to Collection — In One Place
 
-- **Your Data Stays with You.** Everything is stored on your own office computer — no cloud, no monthly server fee, nothing is sent to us. It keeps working when the internet is down. Want access outside the office? Connect privately with Tailscale; the app is never open to the public internet.
+Your salesman takes the order on their phone. You approve it with one tap — the invoice is created and the stock is taken out for you. The warehouse packs it, the driver marks it delivered, and the payment terms start counting by themselves. When the customer pays — cash, bank, GCash, Maya, or a post-dated check — you record it, and your reports, receivables, and books are already up to date.
+
+**No spreadsheets. No copying. No "who has the latest file?"**
+
+## Why Distributors Love It
+
+- **No Per-User Fees.** One flat price for the whole company — add your salesman, your warehouse, and your driver without paying more for each one.
+- **Works Even When the Internet Is Down.** It runs on your own office computer. Salesmen can even take orders with no signal — they're sent automatically when the phone is back online.
+- **Your Data Stays with You.** Everything is stored on your own office computer — no cloud, no monthly server fee, nothing is sent to us. Staff connect over your office Wi-Fi, or privately from anywhere with one button (Remote Access); the app is never open to the public internet.
+- **Made for How Business Is Done Here.** Post-dated checks, credit limits and holds, customer discounts off SRP, BIR tax estimates, SSS / PhilHealth / Pag-IBIG payroll, GCash, and Maya.
 - **Safe.** Every user has their own login and only the permissions you give them. Every change is written to an activity log that nobody can edit — not even an admin. Wrong passwords lock the account for a few minutes. A backup is made every day and every time the app quits. The page blurs when a computer is left alone. The Mac app is signed and notarized by Apple.
 - **Fast.** One small program, no installation of databases or servers. Pages open in a few milliseconds and travel compressed to phones, even with a year of data (tested with 1,000 customers and 15,000 sales orders), and it runs well on an older, low-cost computer.
-- **Easy for Your Team.** Staff open it in the browser on any computer or phone in the office — nothing to install on their devices.
+- **Beautiful and Easy for Your Team.** A clean, Apple-style design on computers and phones, Dark Mode, and accessibility for every user. Staff open it in the browser on any computer or phone — nothing to install on their devices.
+
+## Little Things That Save Hours
+
+- **Business Cards in One Click** — Every staff member downloads their own clean, professional card, ready to print or share as an image.
+- **Customer Forms That Fill Themselves** — Print a Customer Information Sheet on your letterhead, then upload the filled-in PDF and the new customer's details are typed in for you.
+- **Price Lists in Seconds** — Pick your brands and get a neat A4 price list with your contact details. Got a supplier's price list? Import it from PDF, Excel, or CSV.
+- **Smart Purchase Orders** — The app suggests what to reorder from your actual sales, supplier lead times, and minimum orders, and tells you how many days of stock you have left.
+- **Approvals That Find You** — A soft chime when an order or new customer needs your OK, on any device.
+- **Books That Do Themselves** — Income Statement, Balance Sheet, Trial Balance, and General Ledger are worked out from your invoices, payments, stock, and expenses. Send your bookkeeper one CSV.
+- **An App on Every Phone** — Add it to the Home Screen and it opens like a real app, even without signal.
 
 ## What It Does
 
-- **Sales** — Customers with credit terms and limits, sales orders with approval, automatic invoices, delivery tracking (Packed → For Delivery → Delivered), payments, post-dated checks, credit memos, and statements of account.
+- **Sales** — Customers with credit terms, limits, and discounts, sales orders with approval, automatic invoices, delivery tracking (Packed → For Delivery → Delivered), Delivery Receipts, payments, post-dated checks, credit memos, and statements of account.
 - **Inventory** — Products in units and cases, stock arrivals with average cost, suggested purchase orders, price list import (PDF, Excel, or CSV), stock adjustments, and days of stock left.
 - **Money** — Receivables and payables by age, supplier payments, expenses, a 4-week cash forecast, BIR tax estimates and payments, and payroll with government contributions and payslips.
 - **Accounting** — Income Statement, Balance Sheet, Trial Balance, General Journal, and General Ledger, worked out automatically from your sales, payments, stock, and expenses — nothing to enter twice.
 - **Reports** — Sales by supplier, brand, product, or customer, collection forecast, salesman performance, and CSV export.
-- **Printouts** — A4 Sales Invoice, Sales Order, Delivery Receipt, Statement of Account, and Price List.
-- **Your Team** — Roles for Staff, Salesman, and Delivery; permissions down to each report and whether someone sees cost or profit; an activity log nobody can edit.
+- **Printouts** — A4 Sales Invoice, Sales Order, Delivery Receipt, Statement of Account, Price List, and Business Cards.
+- **Your Team** — Roles for Admin, Staff, Salesman, and Delivery; permissions down to each report and whether someone sees cost or profit; an activity log nobody can edit.
 - **Everyday Comfort** — Approvals with a chime, credit holds for overdue customers, signed delivery receipt photos, Dark Mode, per-person accessibility settings, a clean layout on phones, and one-click updates.
 
 <div align="center">
