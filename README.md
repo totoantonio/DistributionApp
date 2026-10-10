@@ -83,7 +83,15 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Version 1.1.1 (Build 24) — Current · October 10, 2026
+### Version 1.1.2 (Build 25) — Current · October 10, 2026
+
+> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+
+- **Reports page** — reports as tiles with a short line saying what each one is for.
+
+[Full list of changes →](../../releases/tag/v1.1.2-build25)
+
+### Version 1.1.1 (Build 24) — October 10, 2026
 
 > **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
