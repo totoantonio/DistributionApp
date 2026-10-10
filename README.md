@@ -83,7 +83,15 @@ Update only the **main computer** (the one running the app). Staff don't need to
 
 ## Changelog
 
-### Version 1.1.3 (Build 26) — Current · October 10, 2026
+### Version 1.1.4 (Build 27) — Current · October 10, 2026
+
+> **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+
+- **Reports page** — coloured icons by group, on the report tiles and the summary cards.
+
+[Full list of changes →](../../releases/tag/v1.1.4-build27)
+
+### Version 1.1.3 (Build 26) — October 10, 2026
 
 > **Windows:** not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
 
