@@ -96,8 +96,8 @@ Finished and being tested now:
 - **Your Updates Date at a Glance** — The License page shows **Updates and Support · Until …**, and the app offers **Renew** instead of installing a version your plan doesn't include.
 - **MariBank and Atome** payments, alongside Cash, Bank Transfer, GCash, Maya, and Checks.
 - **Salesman Locations** and **Payment QR Code** add-ons (above).
-- **Smarter Phones** — A slow connection no longer looks like "offline": the app says *Connecting…* and switches to live data by itself. Approval chimes play again in the app window.
-- **Even Cleaner Design** — Simple on/off switches in Settings, every button and title the same size on every page, and descriptions moved below the content so you see your data first.
+- **Smarter Phones** — A slow connection no longer looks like "offline": the app says *Connecting…* and switches to live data by itself. Approval chimes play again in the app window, and on computers approvals can arrive as a notification with your computer's own alert sound (My Account → Desktop Notifications).
+- **Even Cleaner Design** — Bigger, easier-to-tap buttons on phones, simple on/off switches in Settings, every button and title the same size on every page, and descriptions moved below the content so you see your data first.
 
 ## Pricing
 
