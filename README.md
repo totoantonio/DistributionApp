@@ -92,6 +92,8 @@ Salesman Locations and Payment QR are unlocked with your activation code — **a
 Finished and being tested now:
 
 - **Backups Kept Off the Computer** — Every backup is also copied to a USB drive or your Google Drive, OneDrive, or Dropbox folder, chosen with one tap. If the office computer is stolen or breaks, your data is safe somewhere else.
+- **Stock Count** — Count the shelf for many products at once, in cases and pieces. The difference shows as you type, and one tap corrects the stock. Print it to count on paper first.
+- **Clearer Customer Contacts** — Other contact person, their position or relation, and their mobile number, each on its own line; long Facebook links shortened.
 - **A Start Page for Each Person** — The warehouse can open straight to Stock Arrivals, the cashier to Invoices — set per user.
 - **Delivery and Payroll, Step by Step** — Help now shows how deliveries and payroll flow, from packing to delivered and from payroll to remittance.
 
