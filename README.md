@@ -123,7 +123,7 @@ One flat price per company — **no per-user fees**. Your data stays on your own
 The app is yours — **it never stops working**. What the first year includes is new versions and help from us. After that, you choose:
 
 - **Keep going as you are.** Do nothing: your app, your data, and every feature keep working exactly as they do today. You just won't get the newer versions.
-- **Renew updates and support** — Startup ₱3,990 · Enterprise ₱7,990 · Superuser ₱11,990 per year. Email **totoantonio@gmail.com** — we reply with our GCash and bank details, and once paid we send you a new activation code, and you paste it in **License**. No reinstalling, no re-registering, nothing lost — and you can renew any time, even months later.
+- **Renew updates and support** — Startup ₱3,990 · Enterprise ₱7,990 · Superuser ₱11,990 per year. Email **alfiesuperhalk@gmail.com** — we reply with our GCash and bank details, and once paid we send you a new activation code, and you paste it in **License**. No reinstalling, no re-registering, nothing lost — and you can renew any time, even months later.
 
 You can always see your date in the app: **License → Updates and Support · Until October 11, 2027**. When a new version comes out after your date, the app tells you kindly and shows **Renew** instead of **Install Update** — it never updates itself into something you haven't paid for.
 
@@ -131,7 +131,7 @@ You can always see your date in the app: **License → Updates and Support · Un
 
 - **Founding Customers:** The first customers get 20% off, locked in for life.
 - **Optional Setup Help:** Remote onboarding (price list import, staff phones, remote access) — about ₱5,000.
-- **Support:** By email at **totoantonio@gmail.com**, business hours, reply within 1 business day.
+- **Support:** By email at **alfiesuperhalk@gmail.com**, business hours, reply within 1 business day.
 
 ## How to Update
 
@@ -215,6 +215,6 @@ Import your price lists from PDF, Excel, or CSV in minutes, and add customers by
 
 ## Need Help?
 
-Email **totoantonio@gmail.com**
+Email **alfiesuperhalk@gmail.com**
 
 Copyright © 2026 totoantonio
