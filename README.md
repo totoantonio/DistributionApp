@@ -2,7 +2,7 @@
 
 <h1 align="center">Distribution App</h1>
 
-<p align="center"><b>Run Your Whole Distribution Business From One App — Orders, Deliveries, Collections, Stock, and Books.</b><br>Made for Philippine distributors. One flat price for your whole team. Your data never leaves your office. Works even when the internet doesn't.</p>
+<p align="center"><b>Run Your Whole Distribution Business From One App — Orders, Deliveries, Collections, Stock, and Books.</b><br>Made for Philippine distributors. Runs on your own office computer — <b>no internet needed</b>. One flat price for your whole team.</p>
 
 <p align="right"><a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
 
@@ -20,16 +20,17 @@ Distributors and wholesalers with **2 to 20 people** — an owner, a few salesme
 
 <div align="center">
 
-| | **Distribution App** | Typical Cloud System | Spreadsheets & Paper |
+| | **Distribution App** | Cloud Apps | Spreadsheets |
 | :--- | :---: | :---: | :---: |
-| **Price for 10 users** | ₱1,990 a month, flat — or buy once | Charged per user, every month | Free, but hours of copying |
-| **No internet?** | Keeps working | Stops | Keeps working |
-| **Where your data lives** | Your own office computer | Someone else's server | Scattered files |
-| **Post-dated checks, credit holds, BIR, SSS / PhilHealth / Pag-IBIG** | Built in | Often add-ons or foreign rules | By hand |
-| **Salesman orders without signal** | Yes | Rarely | Paper order slips |
-| **Approval before stock goes out** | Yes, with a chime | Varies | Phone calls |
-| **Who changed what, and when** | Locked activity log | Varies | Nobody knows |
-| **Set up** | One afternoon | Weeks, often with a consultant | — |
+| **10 users** | ₱1,990/mo flat | Per user | Free |
+| **No internet** | Keeps working | Stops | Keeps working |
+| **Your data** | Your office | Their server | Loose files |
+| **Post-dated checks** | Built in | Rarely | By hand |
+| **BIR, SSS, PhilHealth** | Built in | Varies | By hand |
+| **Orders without signal** | Yes | Rarely | Paper slips |
+| **Approvals** | One tap | Varies | Phone calls |
+| **Change history** | Locked log | Varies | None |
+| **Setup** | An afternoon | Weeks | — |
 
 </div>
 
@@ -37,7 +38,7 @@ Distributors and wholesalers with **2 to 20 people** — an owner, a few salesme
 
 - **No Per-User Fees.** One flat price for the whole company — add your salesman, your warehouse, and your driver without paying more for each one.
 - **Works Even When the Internet Is Down.** It runs on your own office computer. Salesmen can even take orders with no signal — they're sent automatically when the phone is back online.
-- **Your Data Stays with You.** Everything is stored on your own office computer — no cloud, no monthly server fee, nothing is sent to us. Staff connect over your office Wi-Fi, or privately from anywhere with one button (Remote Access); the app is never open to the public internet.
+- **Your Data Stays with You.** Everything is stored on your own office computer — no cloud, no monthly server fee, nothing is sent to us. Staff simply connect over your office Wi-Fi.
 - **Made for How Business Is Done Here.** Post-dated checks, credit limits and holds, customer discounts off SRP, BIR tax estimates, SSS / PhilHealth / Pag-IBIG payroll, GCash, and Maya.
 - **Safe.** Every user has their own login and only the permissions you give them. Every change is written to an activity log that nobody can edit — not even an admin. Wrong passwords lock the account for a few minutes. A backup is made every day and every time the app quits. The page blurs when a computer is left alone. The Mac app is signed and notarized by Apple.
 - **Fast.** One small program, no installation of databases or servers. Pages open in a few milliseconds and travel compressed to phones, even with a year of data (tested with 1,000 customers and 15,000 sales orders), and it runs well on an older, low-cost computer.
@@ -53,14 +54,16 @@ Distributors and wholesalers with **2 to 20 people** — an owner, a few salesme
 - **Books That Do Themselves** — Income Statement, Balance Sheet, Trial Balance, and General Ledger are worked out from your invoices, payments, stock, and expenses. Send your bookkeeper one CSV.
 - **An App on Every Phone** — Add it to the Home Screen and it opens like a real app, even without signal.
 
-## Add-ons
+## Add-ons and Options
 
-Extra features for businesses that need them — switch them on in **Settings → Features**. All add-ons are **included free in the 15-day trial**, so you can try them before you decide.
+Everything above works on your office Wi-Fi, with **no internet at all**. These are extras for businesses that want them — switch them on in **Settings → Features**. All are **included free in the 15-day trial**, so you can try them before you decide.
 
-- **Salesman Locations (Visits)** <sup>Beta</sup> — Salesmen **Check In** at each customer, and the **Visits** page shows **where each sales order and payment was made and how far from the store**. Need to know where someone is? **Ping** them — with an optional message like *"Pls proceed to Tondo Auto Supply"* — and a pop-up on their phone lets them share their location with one tap. Each salesman agrees once, nothing is tracked in the background, and every request is logged — made with the Data Privacy Act in mind.
+- **Work From Anywhere** <sup>Optional</sup> — Let staff use the app outside the office too: salesmen on the road, you at home. Turn on **Remote Access** with one button (it uses Tailscale, free for small teams); the app stays private and is never open to the public internet. It needs internet on both ends — but if the connection drops, **the office keeps working**, and salesmen's phones keep new orders and send them once they're back online.
+
+- **Salesman Locations (Visits)** <sup>Beta</sup> — Uses the salesmen's phones over Work From Anywhere. Salesmen **Check In** at each customer, and the **Visits** page shows **where each sales order and payment was made and how far from the store**. Need to know where someone is? **Ping** them — with an optional message like *"Pls proceed to Tondo Auto Supply"* — and a pop-up on their phone lets them share their location with one tap. Each salesman agrees once, nothing is tracked in the background, and every request is logged — made with the Data Privacy Act in mind.
 - **Payment QR Code** <sup>Beta</sup> — Upload your GCash or QR Ph code once. Every salesman can show it on their phone or send it as an image or PDF, with a clear reminder printed on it: **salesmen don't accept cash** — checks or QR only, and always ask for an official receipt.
 
-Add-ons are unlocked with your activation code — **ask us for pricing**.
+Salesman Locations and Payment QR are unlocked with your activation code — **ask us for pricing**. Work From Anywhere is included.
 
 ## What It Does
 
@@ -90,6 +93,7 @@ Finished and being tested now:
 
 - **Proof of Order** — Salesmen attach the customer's signed PO or a photo of the order to each sales order. Turn on **Require Proof of Order** and no order goes for approval without one.
 - **Your Own Terms on Every Form** — Write your Terms & Conditions once; type `{customer terms}` and each invoice, sales order, and statement fills in that customer's own payment terms. Leave it blank and nothing is printed — no surprise standard text.
+- **Your Updates Date at a Glance** — The License page shows **Updates and Support · Until …**, and the app offers **Renew** instead of installing a version your plan doesn't include.
 - **MariBank and Atome** payments, alongside Cash, Bank Transfer, GCash, Maya, and Checks.
 - **Salesman Locations** and **Payment QR Code** add-ons (above).
 - **Smarter Phones** — A slow connection no longer looks like "offline": the app says *Connecting…* and switches to live data by itself. Approval chimes play again in the app window.
@@ -111,7 +115,18 @@ One flat price per company — **no per-user fees**. Your data stays on your own
 
 - **Free 15-Day Trial** with up to 20 users — no payment needed to start.
 - **Monthly and Yearly Plans** include every update and support while subscribed.
-- **One-Time Purchase** is yours to keep forever, with 1 year of updates and support included. After that, updates and support are optional: Startup ₱3,990 · Enterprise ₱7,990 · Superuser ₱11,990 per year. Skip it and the app keeps working.
+- **One-Time Purchase** is yours to keep forever, with the first year of updates and support included (see below).
+### After the First Year (One-Time Purchase)
+
+The app is yours — **it never stops working**. What the first year includes is new versions and help from us. After that, you choose:
+
+- **Keep going as you are.** Do nothing: your app, your data, and every feature keep working exactly as they do today. You just won't get the newer versions.
+- **Renew updates and support** — Startup ₱3,990 · Enterprise ₱7,990 · Superuser ₱11,990 per year. Pay by GCash or bank transfer, we send you a new activation code, and you paste it in **License**. No reinstalling, no re-registering, nothing lost — and you can renew any time, even months later.
+
+You can always see your date in the app: **License → Updates and Support · Until October 11, 2027**. When a new version comes out after your date, the app tells you kindly and shows **Renew** instead of **Install Update** — it never updates itself into something you haven't paid for.
+
+### Also Good to Know
+
 - **Founding Customers:** The first customers get 20% off, locked in for life.
 - **Optional Setup Help:** Remote onboarding (price list import, staff phones, remote access) — about ₱5,000.
 - **Support:** Viber or email, business hours, reply within 1 business day.
@@ -169,7 +184,10 @@ A backup is saved every day and every time the app quits. Copy the backup folder
 No. Staff in the office connect over your Wi-Fi. Internet is only needed for staff outside the office (through Remote Access), for update checks, and for activation.
 
 **Can I see everything from my phone?**
-Yes — add it to your Home Screen and it opens like an app. With Remote Access on, it works from anywhere.
+Yes — on your office Wi-Fi, open it in your phone's browser and add it to your Home Screen; it opens like an app. Want it outside the office too? Turn on **Work From Anywhere**.
+
+**What happens after the first year?**
+Nothing stops. The app keeps working on the version you have. Renew any time for new versions and help — see **After the First Year** above.
 
 **Is it BIR-accredited?**
 No. It is not a registered Computerized Accounting System. Tax figures are estimates to help you prepare — please have your accountant check them before filing. Ask your RDO what applies to your business.
