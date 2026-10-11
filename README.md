@@ -42,7 +42,7 @@ Distributors and wholesalers with **2 to 20 people** — an owner, a few salesme
 - **Made for How Business Is Done Here.** Post-dated checks, credit limits and holds, customer discounts off SRP, BIR tax estimates, SSS / PhilHealth / Pag-IBIG payroll, GCash, and Maya.
 - **Safe.** Every user has their own login and only the permissions you give them. Every change is written to an activity log that nobody can edit — not even an admin. Wrong passwords lock the account for a few minutes. A backup is made every day and every time the app quits. The page blurs when a computer is left alone. The Mac app is signed and notarized by Apple.
 - **Fast.** One small program, no installation of databases or servers. Pages open in a few milliseconds and travel compressed to phones, even with a year of data (tested with 1,000 customers and 15,000 sales orders), and it runs well on an older, low-cost computer.
-- **Beautiful and Easy for Your Team.** A clean, Apple-style design on computers and phones, Dark Mode, and accessibility for every user. Staff open it in the browser on any computer or phone — nothing to install on their devices.
+- **Beautiful and Easy for Your Team.** A clean, minimal design on computers and phones, Dark Mode, and accessibility for every user. Staff open it in the browser on any computer or phone — nothing to install on their devices.
 
 ## Little Things That Save Hours
 
