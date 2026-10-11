@@ -2,7 +2,7 @@
 
 <h1 align="center">Distribution App</h1>
 
-<p align="center"><b>Run Your Whole Distribution Business From One App — Orders, Deliveries, Collections, Stock, and Books.</b><br>Made for Philippine distributors. One flat price. Your data never leaves your office.</p>
+<p align="center"><b>Run Your Whole Distribution Business From One App — Orders, Deliveries, Collections, Stock, and Books.</b><br>Made for Philippine distributors. One flat price for your whole team. Your data never leaves your office. Works even when the internet doesn't.</p>
 
 <p align="right"><a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
 
@@ -11,6 +11,27 @@
 Your salesman takes the order on their phone. You approve it with one tap — the invoice is created and the stock is taken out for you. The warehouse packs it, the driver marks it delivered, and the payment terms start counting by themselves. When the customer pays — cash, bank, GCash, Maya, or a post-dated check — you record it, and your reports, receivables, and books are already up to date.
 
 **No spreadsheets. No copying. No "who has the latest file?"**
+
+## Who It's For
+
+Distributors and wholesalers with **2 to 20 people** — an owner, a few salesmen, someone in the office, a warehouse, a driver. Auto parts, lubricants, hardware, grocery and FMCG, pharma, school and office supplies — if you sell to stores on credit and deliver, it's made for you.
+
+## Why It's the Best Choice
+
+<div align="center">
+
+| | **Distribution App** | Typical Cloud System | Spreadsheets & Paper |
+| :--- | :---: | :---: | :---: |
+| **Price for 10 users** | ₱1,990 a month, flat — or buy once | Charged per user, every month | Free, but hours of copying |
+| **No internet?** | Keeps working | Stops | Keeps working |
+| **Where your data lives** | Your own office computer | Someone else's server | Scattered files |
+| **Post-dated checks, credit holds, BIR, SSS / PhilHealth / Pag-IBIG** | Built in | Often add-ons or foreign rules | By hand |
+| **Salesman orders without signal** | Yes | Rarely | Paper order slips |
+| **Approval before stock goes out** | Yes, with a chime | Varies | Phone calls |
+| **Who changed what, and when** | Locked activity log | Varies | Nobody knows |
+| **Set up** | One afternoon | Weeks, often with a consultant | — |
+
+</div>
 
 ## Why Distributors Love It
 
@@ -31,6 +52,15 @@ Your salesman takes the order on their phone. You approve it with one tap — th
 - **Approvals That Find You** — A soft chime when an order or new customer needs your OK, on any device.
 - **Books That Do Themselves** — Income Statement, Balance Sheet, Trial Balance, and General Ledger are worked out from your invoices, payments, stock, and expenses. Send your bookkeeper one CSV.
 - **An App on Every Phone** — Add it to the Home Screen and it opens like a real app, even without signal.
+
+## Add-ons
+
+Extra features for businesses that need them — switch them on in **Settings → Features**. All add-ons are **included free in the 15-day trial**, so you can try them before you decide.
+
+- **Salesman Locations (Visits)** <sup>Beta</sup> — Salesmen **Check In** at each customer, and the **Visits** page shows **where each sales order and payment was made and how far from the store**. Need to know where someone is? **Ping** them — with an optional message like *"Pls proceed to Tondo Auto Supply"* — and a pop-up on their phone lets them share their location with one tap. Each salesman agrees once, nothing is tracked in the background, and every request is logged — made with the Data Privacy Act in mind.
+- **Payment QR Code** <sup>Beta</sup> — Upload your GCash or QR Ph code once. Every salesman can show it on their phone or send it as an image or PDF, with a clear reminder printed on it: **salesmen don't accept cash** — checks or QR only, and always ask for an official receipt.
+
+Add-ons are unlocked with your activation code — **ask us for pricing**.
 
 ## What It Does
 
@@ -53,6 +83,17 @@ Your salesman takes the order on their phone. You approve it with one tap — th
 </div>
 
 ---
+
+## Coming in the Next Update
+
+Finished and being tested now:
+
+- **Proof of Order** — Salesmen attach the customer's signed PO or a photo of the order to each sales order. Turn on **Require Proof of Order** and no order goes for approval without one.
+- **Your Own Terms on Every Form** — Write your Terms & Conditions once; type `{customer terms}` and each invoice, sales order, and statement fills in that customer's own payment terms. Leave it blank and nothing is printed — no surprise standard text.
+- **MariBank and Atome** payments, alongside Cash, Bank Transfer, GCash, Maya, and Checks.
+- **Salesman Locations** and **Payment QR Code** add-ons (above).
+- **Smarter Phones** — A slow connection no longer looks like "offline": the app says *Connecting…* and switches to live data by itself. Approval chimes play again in the app window.
+- **Even Cleaner Design** — Simple on/off switches in Settings, every button and title the same size on every page, and descriptions moved below the content so you see your data first.
 
 ## Pricing
 
@@ -118,6 +159,26 @@ Your data is stored separately from the app, so updating **never deletes or chan
 [Full list of changes →](../../releases/tag/v1.2.0-build30)
 
 ---
+
+## Questions Owners Ask
+
+**What if the office computer breaks?**
+A backup is saved every day and every time the app quits. Copy the backup folder to a USB drive or another computer now and then — restoring it on a new computer brings everything back.
+
+**Do I need internet?**
+No. Staff in the office connect over your Wi-Fi. Internet is only needed for staff outside the office (through Remote Access), for update checks, and for activation.
+
+**Can I see everything from my phone?**
+Yes — add it to your Home Screen and it opens like an app. With Remote Access on, it works from anywhere.
+
+**Is it BIR-accredited?**
+No. It is not a registered Computerized Accounting System. Tax figures are estimates to help you prepare — please have your accountant check them before filing. Ask your RDO what applies to your business.
+
+**Can I try it first?**
+Yes — a free 15-day trial with up to 20 users and every add-on, plus a **Demo Mode** filled with sample customers, products, and orders so you can explore without typing anything.
+
+**How do I move from my old system or spreadsheets?**
+Import your price lists from PDF, Excel, or CSV in minutes, and add customers by uploading their filled-in information sheet. Optional setup help is available — we'll do it with you.
 
 ## Need Help?
 
