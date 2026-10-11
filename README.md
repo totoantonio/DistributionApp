@@ -65,8 +65,9 @@ Everything above works on your office Wi-Fi, with **no internet at all**. These 
 
 - **Salesman Locations (Visits)** <sup>Beta</sup> — Uses the salesmen's phones over Work From Anywhere. Salesmen **Check In** at each customer, and the **Visits** page shows **where each sales order and payment was made and how far from the store**. Need to know where someone is? **Ping** them — with an optional message like *"Pls proceed to Tondo Auto Supply"* — and a pop-up on their phone lets them share their location with one tap. Each salesman agrees once, nothing is tracked in the background, and every request is logged — made with the Data Privacy Act in mind.
 - **Payment QR Code** <sup>Beta</sup> — Upload your GCash or QR Ph code once. Every salesman can show it on their phone or send it as an image or PDF, with a clear reminder printed on it: **salesmen don't accept cash** — checks or QR only, and always ask for an official receipt.
+- **Signed Delivery Receipts** — Drivers snap a photo of the signed delivery receipt (or attach a PDF) right on the Delivery page, so you have proof of every delivery, kept with the invoice.
 
-Salesman Locations and Payment QR are unlocked with your activation code — **ask us for pricing**. Work From Anywhere is included.
+**Each add-on is paid for separately** — Payment QR Code, Salesman Locations, and Signed Delivery Receipts — so you pay only for the ones you use. They are unlocked with your activation code — **ask us for pricing**. Work From Anywhere is included.
 
 ## What It Does
 
@@ -77,7 +78,7 @@ Salesman Locations and Payment QR are unlocked with your activation code — **a
 - **Reports** — Sales by supplier, brand, product, or customer, collection forecast, salesman performance, and CSV export.
 - **Printouts** — A4 Sales Invoice, Sales Order, Delivery Receipt, Statement of Account, Price List, and Business Cards.
 - **Your Team** — Roles for Admin, Staff, Salesman, and Delivery; permissions down to each report and whether someone sees cost or profit; an activity log nobody can edit.
-- **Everyday Comfort** — Approvals with a chime, credit holds for overdue customers, signed delivery receipt photos, Dark Mode, per-person accessibility settings, a clean layout on phones, and one-click updates.
+- **Everyday Comfort** — Approvals with a chime, credit holds for overdue customers, Dark Mode, per-person accessibility settings, a clean layout on phones, and one-click updates.
 
 <div align="center">
 
