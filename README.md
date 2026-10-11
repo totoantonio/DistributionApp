@@ -87,6 +87,14 @@ Salesman Locations and Payment QR are unlocked with your activation code — **a
 
 ---
 
+## Coming in the Next Update
+
+Finished and being tested now:
+
+- **Backups Kept Off the Computer** — Every backup is also copied to a USB drive or your Google Drive, OneDrive, or Dropbox folder, chosen with one tap. If the office computer is stolen or breaks, your data is safe somewhere else.
+- **A Start Page for Each Person** — The warehouse can open straight to Stock Arrivals, the cashier to Invoices — set per user.
+- **Delivery and Payroll, Step by Step** — Help now shows how deliveries and payroll flow, from packing to delivered and from payroll to remittance.
+
 ## Pricing
 
 One flat price per company — **no per-user fees**. Your data stays on your own computer, and the app works even when the internet is down.
@@ -180,7 +188,7 @@ Your data is stored separately from the app, so updating **never deletes or chan
 ## Questions Owners Ask
 
 **What if the office computer breaks?**
-A backup is saved every day and every time the app quits. Copy the backup folder to a USB drive or another computer now and then — restoring it on a new computer brings everything back.
+A backup is saved every day and every time the app quits. In the next update, each backup is also copied by itself to a USB drive or your Google Drive, OneDrive, or Dropbox folder — restoring it on a new computer brings everything back.
 
 **Do I need internet?**
 No. Staff in the office connect over your Wi-Fi. Internet is only needed for staff outside the office (through Remote Access), for update checks, and for activation.
