@@ -87,18 +87,6 @@ Salesman Locations and Payment QR are unlocked with your activation code — **a
 
 ---
 
-## Coming in the Next Update
-
-Finished and being tested now:
-
-- **Proof of Order** — Salesmen attach the customer's signed PO or a photo of the order to each sales order. Turn on **Require Proof of Order** and no order goes for approval without one.
-- **Your Own Terms on Every Form** — Write your Terms & Conditions once; type `{customer terms}` and each invoice, sales order, and statement fills in that customer's own payment terms. Leave it blank and nothing is printed — no surprise standard text.
-- **Your Updates Date at a Glance** — The License page shows **Updates and Support · Until …**, and the app offers **Renew** instead of installing a version your plan doesn't include.
-- **MariBank and Atome** payments, alongside Cash, Bank Transfer, GCash, Maya, and Checks.
-- **Salesman Locations** and **Payment QR Code** add-ons (above).
-- **Smarter Phones** — A slow connection no longer looks like "offline": the app says *Connecting…* and switches to live data by itself. Approval chimes play again in the app window, and on computers approvals can arrive as a notification with your computer's own alert sound (My Account → Desktop Notifications).
-- **Even Cleaner Design** — Bigger, easier-to-tap buttons on phones, simple on/off switches in Settings, every button and title the same size on every page, and descriptions moved below the content so you see your data first.
-
 ## Pricing
 
 One flat price per company — **no per-user fees**. Your data stays on your own computer, and the app works even when the internet is down.
@@ -162,9 +150,22 @@ Your data is stored separately from the app, so updating **never deletes or chan
 
 ## Changelog
 
-### Version 1.2.0 (Build 30) — Current · October 10, 2026
+### Version 1.3.0 (Build 31) — Current · October 11, 2026
 
 > **Windows:** Not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+
+- **Proof of Order** — Salesmen attach the customer's signed PO or a photo of the order. Turn on **Require Proof of Order** and no order goes for approval without one.
+- **Your Own Terms on Every Form** — Type `{customer terms}` and each invoice, sales order, and statement fills in that customer's payment terms. Leave it blank and nothing is printed.
+- **Salesman Locations** and **Payment QR Code** add-ons <sup>Beta</sup>.
+- **MariBank and Atome** payments.
+- **Desktop Notifications** — Approvals arrive with your computer's own alert sound.
+- **Your Updates Date at a Glance** — License shows **Updates and Support · Until …**, and the app offers **Renew** instead of installing a version your plan doesn't include.
+- **Smarter Phones** — *Connecting…* instead of "offline" on a slow start, approval chimes again, and bigger, easier-to-tap buttons.
+- **Even Cleaner Design** — Simple on/off switches, every title the same size, and descriptions below the content.
+
+[Full list of changes →](../../releases/tag/v1.3.0-build31)
+
+### Version 1.2.0 (Build 30) — October 10, 2026
 
 - **Offline Salesman Orders** — No signal? The order waits on the phone and sends itself later.
 - **Remote Access** — A secure address for staff phones, turned on with one button, with a QR code.
