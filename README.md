@@ -4,6 +4,8 @@
 
 <p align="center"><b>Run Your Whole Distribution Business From One App — Orders, Deliveries, Collections, Stock, and Books.</b><br>Made for Philippine distributors. Runs on your own office computer — <b>no internet needed</b>. One flat price for your whole team.</p>
 
+<p align="center"><img src="assets/hero.png" alt="Distribution App on a Mac and an iPhone"></p>
+
 <p align="right"><a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
 
 ## From Order to Collection — In One Place
