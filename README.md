@@ -5,6 +5,7 @@
 <p align="center"><b>Run Your Whole Distribution Business From One App — Orders, Deliveries, Collections, Stock, and Books.</b><br>Made for Philippine distributors. Runs on your own office computer — <b>no internet needed</b>. One flat price for your whole team.</p>
 
 <p align="center"><img src="assets/hero.png" alt="Distribution App on a Mac and an iPhone"></p>
+<p align="center"><sub>Shown in Demo Mode. All stores, people, addresses, part numbers, and prices are made up. Brand names belong to their owners and appear only as examples — we are not affiliated with them.</sub></p>
 
 <p align="right"><a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
 
@@ -208,7 +209,7 @@ Nothing stops. The app keeps working on the version you have. Renew any time for
 No. It is not a registered Computerized Accounting System. Tax figures are estimates to help you prepare — please have your accountant check them before filing. Ask your RDO what applies to your business.
 
 **Can I try it first?**
-Yes — a free 15-day trial with up to 20 users and every add-on, plus a **Demo Mode** filled with sample customers, products, and orders so you can explore without typing anything.
+Yes — a free 15-day trial with up to 20 users and every add-on, plus a **Demo Mode** filled with sample customers, products, and orders so you can explore without typing anything. Everything in the demo is made up — no real stores, people, or prices.
 
 **How do I move from my old system or spreadsheets?**
 Import your price lists from PDF, Excel, or CSV in minutes, and add customers by uploading their filled-in information sheet. Optional setup help is available — we'll do it with you.
