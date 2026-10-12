@@ -176,7 +176,8 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 // Top bar: Apple search field, bold "Download the App" link
 .main-header { border-bottom: 0; }
 .search-input { background: var(--fill); border-radius: 10px; }
-.aux-nav .aux-nav-list-link { font-weight: 600; color: var(--text); background-image: none; }
+.aux-nav .aux-nav-list-link { font-weight: 600; color: var(--text) !important; background-image: none; }
+.main-header { padding-top: 12px; }
 
 // No underlines anywhere — links and buttons are marked by heavier text instead (owner, 2026-10-12)
 a, a:hover, a:focus, .btn, .btn:hover { text-decoration: none !important; background-image: none; }
@@ -254,7 +255,7 @@ a, a:hover, a:focus, .btn, .btn:hover { text-decoration: none !important; backgr
 .main-content footer .fine-print { display: block; margin: 12px 0; }
 .main-content footer .fine-print a { color: var(--text); font-weight: 600; }
 // Bottom of the left panel: download link + small grey notes (_includes/nav_footer_custom.html)
-.side-bar .site-footer { position: static; box-sizing: border-box; padding: 12px 24px 32px; margin-top: auto; }
+.side-bar .site-footer { position: static !important; width: 100% !important; box-sizing: border-box; padding: 12px 24px 32px !important; margin-top: auto; }
 .nav-foot { border-top: 1px solid var(--sep); padding-top: 14px; text-align: center; }
 .nav-foot-os { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 8px 0 0; color: var(--text-3); }
 .nav-foot-link { display: flex; justify-content: center; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--blue) !important; background-image: none; }
