@@ -1,0 +1,14 @@
+---
+layout: null
+sitemap: false
+---
+# Distribution App User Guide
+
+> {{ site.description }} The app runs on one office Mac or Windows PC; staff, salesmen and drivers use it in their phone's web browser. Download: https://github.com/totoantonio/DistributionApp/releases/latest
+{% assign chapters = site.html_pages | where_exp: "p", "p.parent == nil" | sort: "nav_order" %}
+{% for c in chapters %}{% if c.title %}
+## {{ c.title }}
+
+- [{{ c.title }}]({{ c.url | absolute_url }}): {{ c.description }}
+{% assign kids = site.html_pages | where: "parent", c.title | sort: "nav_order" %}{% for k in kids %}- [{{ k.title }}]({{ k.url | absolute_url }}): {{ k.description }}
+{% endfor %}{% endif %}{% endfor %}

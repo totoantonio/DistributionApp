@@ -1,0 +1,339 @@
+// Apple-style, minimal look for the guide (owner, 2026-10-12). Plain CSS so the local preview can reuse it.
+
+// Colours follow Apple's system colours and switch with the Mac/iPhone Light or Dark appearance (HIG: support Dark Mode)
+:root {
+  color-scheme: light dark;
+  --bg: #fff; --text: #1d1d1f; --text-2: #6e6e73; --text-3: #86868b; --fill: #f5f5f7;
+  --sep: rgba(0, 0, 0, 0.08); --sep-strong: rgba(0, 0, 0, 0.16); --hover: rgba(0, 0, 0, 0.05);
+  --blue: #007aff; --blue-tint: rgba(0, 122, 255, 0.12); --blue-text: #0066cc; --orange: #c93400; --green: #248a3d;
+  --btn: #e8e8ed; --btn-hover: #dcdce1;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000; --text: #f5f5f7; --text-2: #a1a1a6; --text-3: #8e8e93; --fill: #1c1c1e;
+    --sep: rgba(255, 255, 255, 0.12); --sep-strong: rgba(255, 255, 255, 0.2); --hover: rgba(255, 255, 255, 0.07);
+    --blue: #0a84ff; --blue-tint: rgba(10, 132, 255, 0.2); --blue-text: #2997ff; --orange: #ff9f0a; --green: #30d158;
+    --btn: #2c2c2e; --btn-hover: #3a3a3c;
+  }
+  .side-bar::before { box-shadow: inset 0 0 0 1px var(--sep) !important; }
+  .main-content img { border-radius: 8px; }
+}
+
+// Type: system font, Apple near-black text
+body, .main-content, .side-bar, .site-title, .search-input {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+body, .main-header, .search-results { background: var(--bg); }
+.main-content { font-size: 17px; line-height: 1.53; letter-spacing: -0.01em; }
+.main-content h1 { font-size: 40px; line-height: 1.1; font-weight: 600; letter-spacing: -0.02em; margin: 32px 0 24px; }
+.main-content h2 { font-size: 28px; line-height: 1.15; font-weight: 600; letter-spacing: -0.015em; margin: 48px 0 16px; }
+.main-content h3 { font-size: 21px; line-height: 1.2; font-weight: 600; margin: 32px 0 12px; }
+.main-content p, .main-content ul, .main-content ol { margin: 0 0 16px; }
+.main-content li { margin-bottom: 6px; }
+.main-content strong { font-weight: 600; }
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: var(--text); }
+.main-content h1, .main-content h2 { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif; }
+.anchor-heading svg { color: var(--text-3); }
+.site-footer, .search-label, .search-result-doc-title, .search-result-section { color: var(--text-2); }
+.search-input, .search-result-title { color: var(--text); }
+.search-results { box-shadow: 0 8px 32px rgba(0, 0, 0, 0.16); border-radius: 12px; }
+::selection { background: var(--blue-tint); }
+
+// Keyboard focus: Apple's blue focus ring (HIG: accessibility)
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; border-radius: 8px; }
+
+// Links: bold, text colour, no underline
+.main-content a:not(.anchor-heading):not(.btn) {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  background-image: none;
+}
+.main-content a:not(.anchor-heading):not(.btn):hover { opacity: 0.7; }
+
+// Images: no border or shadow; one even space above and below
+.main-content img { display: block; max-width: 100%; height: auto; border: 0; box-shadow: none; }
+.main-content p:has(> img), .main-content p:has(> .img-placeholder) { margin: 24px 0 32px; }
+
+// Tables: no box, no side lines; thin rows; small grey headings (like Finder / the app); same space after as images
+.main-content .table-wrapper { margin: 24px 0 32px; box-shadow: none; border-radius: 0; overflow-x: auto; }
+.main-content table { border-collapse: collapse; width: 100%; font-size: 15px; line-height: 1.4; }
+.main-content th, .main-content td {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--sep);
+  padding: 10px 16px 10px 0;
+  text-align: left;
+  vertical-align: top;
+}
+.main-content thead th { font-size: 13px; font-weight: 400; color: var(--text-2); border-bottom: 1px solid var(--sep-strong); }
+.main-content tr:last-child td { border-bottom: 0; }
+
+// Note boxes: soft grey, rounded, no coloured bar; Apple-style inline "Note:" label carries the colour
+.main-content .note, .main-content .important, .main-content .warning, .main-content .tip {
+  background: var(--fill);
+  border: 0;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin: 24px 0 32px;
+}
+.main-content .note::before, .main-content .important::before, .main-content .warning::before, .main-content .tip::before {
+  display: inline;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: inherit;
+  font-weight: 600;
+  padding: 0;
+  margin-right: 0.25em;
+}
+.main-content .note::before { content: "Note:"; }
+.main-content .important::before { content: "Important:"; }
+.main-content .warning::before { content: "Warning:"; }
+.main-content .tip::before { content: "Tip:"; }
+.main-content .note::before { color: var(--text); }
+.main-content .important::before { color: var(--blue-text); }
+.main-content .warning::before { color: var(--orange); }
+.main-content .tip::before { color: var(--green); }
+
+// Code and lines
+.main-content code { background: var(--fill); border: 0; border-radius: 6px; padding: 1px 6px; font-size: 0.88em; color: var(--text); }
+.main-content hr { border: 0; height: 1px; background: var(--sep); margin: 32px 0; }
+
+// Sidebar — same feel as the app's sidebar: floating rounded grey panel, app icon + name, blue outline icons,
+// current page = light blue tint with blue text, chapters slide open and closed (owner, 2026-10-12)
+.side-bar { background: var(--bg); border-right: 0; isolation: isolate; }
+@media (min-width: 50rem) {
+  .side-bar::before { content: ""; position: absolute; inset: 8px; border-radius: 16px; background: var(--fill); box-shadow: inset 0 0 0 1px var(--hover); z-index: -1; }
+}
+.site-header { border-bottom: 0; }
+.site-title {
+  display: grid; grid-template-columns: 32px 1fr; column-gap: 10px; align-items: center;
+  font-size: 15px; font-weight: 600; line-height: 1.2; color: var(--text); padding: 32px 20px 16px 24px;
+}
+.site-title::before {
+  content: ""; grid-row: span 2; width: 32px; height: 32px; border-radius: 8px;
+  background: url("../images/logo.png") center / cover no-repeat; // CSS lives in /assets/css/
+}
+.site-title::after { content: "User Guide"; font-size: 12px; font-weight: 400; color: var(--text-2); }
+.site-title:hover { background-image: none; opacity: 0.85; }
+.site-header, .site-nav { box-sizing: border-box; }
+.site-nav { padding: 4px 16px 24px 16px; }
+
+.nav-list { list-style: none; margin: 0; padding: 0; }
+.nav-list .nav-list-item { position: relative; margin: 1px 0; font-size: 14px; line-height: 20px; }
+.nav-list .nav-list-item .nav-list-link {
+  display: flex; align-items: center; gap: 10px; min-height: 28px; padding: 4px 32px 4px 10px; box-sizing: border-box;
+  border-radius: 8px; color: var(--text); font-weight: 400; background-image: none;
+  transition: background-color 0.15s ease;
+}
+.nav-list .nav-list-item .nav-list-link:hover { background: var(--hover); background-image: none; }
+.nav-list .nav-list-item .nav-list-link.active { background: var(--blue-tint); color: var(--blue); font-weight: 500; background-image: none; }
+
+// Chapter icons (top level only), app blue
+.site-nav > .nav-list > .nav-list-item > .nav-list-link::before {
+  content: ""; flex: none; width: 18px; height: 18px; background: var(--blue);
+  -webkit-mask: center / contain no-repeat; mask: center / contain no-repeat;
+}
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="DistributionApp/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%2010.5%2012%203l9%207.5V20a1%201%200%200%201-1%201h-5v-6H9v6H4a1%201%200%200%201-1-1z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%2010.5%2012%203l9%207.5V20a1%201%200%200%201-1%201h-5v-6H9v6H4a1%201%200%200%201-1-1z%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="how-it-connects/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%222.5%22%2F%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%226%22%20r%3D%222.5%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2218%22%20r%3D%222.5%22%2F%3E%3Cpath%20d%3D%22M8.5%206h7M7.2%208.2l3.6%207.6M16.8%208.2l-3.6%207.6%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%222.5%22%2F%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%226%22%20r%3D%222.5%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2218%22%20r%3D%222.5%22%2F%3E%3Cpath%20d%3D%22M8.5%206h7M7.2%208.2l3.6%207.6M16.8%208.2l-3.6%207.6%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="getting-started/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M5%2021V4M5%204h11l-2%204%202%204H5%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M5%2021V4M5%204h11l-2%204%202%204H5%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="selling/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%204h2l2.4%2011h10.2L20%208H6.2%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%2219.5%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2217%22%20cy%3D%2219.5%22%20r%3D%221.3%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M3%204h2l2.4%2011h10.2L20%208H6.2%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%2219.5%22%20r%3D%221.3%22%2F%3E%3Ccircle%20cx%3D%2217%22%20cy%3D%2219.5%22%20r%3D%221.3%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="collecting/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%223%22%20y%3D%226%22%20width%3D%2218%22%20height%3D%2212%22%20rx%3D%222%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%222.5%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%223%22%20y%3D%226%22%20width%3D%2218%22%20height%3D%2212%22%20rx%3D%222%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%222.5%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="buying/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%203%203.5%207.5v9L12%2021l8.5-4.5v-9zM3.5%207.5%2012%2012l8.5-4.5M12%2012v9%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%203%203.5%207.5v9L12%2021l8.5-4.5v-9zM3.5%207.5%2012%2012l8.5-4.5M12%2012v9%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="money/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%203a9%209%200%201%200%209%209h-9z%22%2F%3E%3Cpath%20d%3D%22M15%203.5A9%209%200%200%201%2020.5%209H15z%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%203a9%209%200%201%200%209%209h-9z%22%2F%3E%3Cpath%20d%3D%22M15%203.5A9%209%200%200%201%2020.5%209H15z%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="settings/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4%207h10M18%207h2M4%2017h4M12%2017h8%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%227%22%20r%3D%222%22%2F%3E%3Ccircle%20cx%3D%2210%22%20cy%3D%2217%22%20r%3D%222%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4%207h10M18%207h2M4%2017h4M12%2017h8%22%2F%3E%3Ccircle%20cx%3D%2216%22%20cy%3D%227%22%20r%3D%222%22%2F%3E%3Ccircle%20cx%3D%2210%22%20cy%3D%2217%22%20r%3D%222%22%2F%3E%3C%2Fsvg%3E"); }
+.site-nav > .nav-list > .nav-list-item > .nav-list-link[href$="troubleshooting/"]::before { -webkit-mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M9.6%209.3a2.5%202.5%200%201%201%203.4%202.3c-.6.3-1%20.8-1%201.5v.4M12%2016.8v.2%22%2F%3E%3C%2Fsvg%3E"); mask-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M9.6%209.3a2.5%202.5%200%201%201%203.4%202.3c-.6.3-1%20.8-1%201.5v.4M12%2016.8v.2%22%2F%3E%3C%2Fsvg%3E"); }
+
+// Pages inside a chapter: no icon, lined up with the chapter name
+.nav-list .nav-list-item > .nav-list { padding-left: 28px; }
+
+// Open / close: slide + fade, arrow turns
+.nav-list .nav-list-item > .nav-list {
+  display: block !important; max-height: 0; overflow: hidden; opacity: 0;
+  transition: max-height 0.35s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.25s ease;
+}
+.nav-list .nav-list-item.active > .nav-list { max-height: 40rem; opacity: 1; }
+.nav-list .nav-list-item .nav-list-expander {
+  position: absolute; right: 4px; top: 2px; width: 24px; height: 24px; padding: 4px; box-sizing: border-box;
+  border-radius: 6px; color: var(--text-3); background: none; border: 0; cursor: pointer; z-index: 1;
+}
+.nav-list .nav-list-item .nav-list-expander:hover { background: var(--hover); }
+.nav-list .nav-list-item .nav-list-expander svg { width: 16px; height: 16px; transform: rotate(0deg); transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); }
+.nav-list .nav-list-item.active > .nav-list-expander svg { transform: rotate(90deg); }
+
+// Phones: the whole menu slides down from the menu button
+@media (max-width: 49.99rem) {
+  .site-nav { display: block !important; max-height: 0; overflow: hidden; opacity: 0; padding-top: 0; padding-bottom: 0;
+    transition: max-height 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.25s ease, padding 0.4s ease; }
+  .site-nav.nav-open { max-height: 80vh; overflow-y: auto; opacity: 1; padding-top: 4px; padding-bottom: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-list .nav-list-item > .nav-list, .nav-list-expander svg, .site-nav { transition: none !important; }
+}
+
+// Top bar: Apple search field, bold "Download the App" link
+.main-header { border-bottom: 0; }
+.search-input { background: var(--fill); border-radius: 10px; }
+.aux-nav .aux-nav-list-link { font-weight: 600; color: var(--text); background-image: none; }
+
+// No underlines anywhere — links and buttons are marked by heavier text instead (owner, 2026-10-12)
+a, a:hover, a:focus, .btn, .btn:hover { text-decoration: none !important; background-image: none; }
+
+// Buttons (Home): Apple pill buttons, semibold text
+.btn { border-radius: 980px; box-shadow: none; border: 0; font-weight: 600; padding: 8px 20px; }
+.btn-primary { background: #0071e3; color: #fff; }
+.btn-primary:hover { background: #0077ed; color: #fff; }
+.btn:not(.btn-primary) { background: var(--btn); color: var(--text); }
+.btn:not(.btn-primary):hover { background: var(--btn-hover); color: var(--text); }
+
+// Placeholder for a screenshot not uploaded yet (script in _includes/head_custom.html)
+.main-content .img-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 240px;
+  padding: 32px 24px;
+  background: var(--fill);
+  border-radius: 12px;
+  text-align: center;
+  color: var(--text-3);
+}
+.main-content .img-placeholder .ph-desc { color: var(--text); font-size: 15px; font-weight: 600; max-width: 480px; }
+.main-content .img-placeholder .ph-note { font-size: 13px; }
+
+// Home contents: Apple Support-style topic cards, two columns (one on phones)
+.main-content .toc-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 24px 0 32px; }
+@media (max-width: 700px) { .main-content .toc-grid { grid-template-columns: minmax(0, 1fr); } }
+.main-content .toc-card { background: var(--fill); border-radius: 18px; padding: 24px 24px 12px; }
+.main-content .toc-card h3 { margin: 0 0 4px; font-size: 21px; }
+.main-content .toc-desc { color: var(--text-2); font-size: 15px; margin: 0 0 12px; }
+.main-content .toc-card ul { list-style: none; padding: 0; margin: 0; }
+.main-content .toc-card ul > li { margin: 0; padding: 0; border-top: 1px solid var(--sep); }
+.main-content .toc-card ul > li::before { content: none; }
+.main-content .toc-card ul > li > a:not(.btn) { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; font-size: 15px; font-weight: 400; }
+.main-content .toc-card ul > li > a::after { content: "\203A"; color: var(--text-3); font-size: 20px; line-height: 1; }
+
+// Use the whole width: fixed 17rem menu, page fills the rest (theme centred an 800px column)
+@media (min-width: 50rem) {
+  .side-bar { width: 17rem !important; min-width: 17rem; align-items: stretch !important; }
+  .site-header, .site-nav, .site-footer { width: 100% !important; }
+  .main { margin-left: 17rem !important; max-width: none !important; }
+  .main-content-wrap, .main-header { padding-left: 48px; padding-right: 48px; max-width: none; }
+}
+@media (min-width: 87.5rem) { .main-content .toc-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+// "See Also" at the end of a page (Apple user guide style): plain list, no bullets
+.main-content h3:has(+ .see-also) { font-size: 17px; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--sep); }
+.main-content ul.see-also { list-style: none; padding: 0; margin: 0 0 16px; }
+.main-content ul.see-also > li { margin: 0 0 6px; padding: 0; }
+.main-content ul.see-also > li::before { content: none; }
+
+// Phones and small tablets: even 20px side space everywhere, smaller headings (owner, 2026-10-12)
+@media (max-width: 49.99rem) {
+  .main-content-wrap, .main-header { padding-left: 20px !important; padding-right: 20px !important; box-sizing: border-box; }
+  .site-title { padding: 20px 20px 12px; }
+  .site-nav { padding-left: 12px; padding-right: 12px; }
+  .main-content h1 { font-size: 32px; margin-top: 24px; margin-bottom: 20px; }
+  .main-content h2 { font-size: 24px; margin-top: 40px; }
+  .main-content h3 { font-size: 19px; }
+  .main-content .toc-card { padding: 20px 20px 8px; border-radius: 16px; }
+  .main-content .note, .main-content .important, .main-content .warning, .main-content .tip { padding: 14px 16px; }
+  .main-content .img-placeholder { min-height: 180px; padding: 24px 16px; }
+  .main-content th, .main-content td { padding-right: 12px; }
+  .nav-list .nav-list-item .nav-list-link { min-height: 44px; }
+  .nav-list .nav-list-item .nav-list-expander { width: 44px; height: 44px; top: 0; right: 0; padding: 14px; }
+}
+
+// Footer fine print, like the small grey notes at the bottom of Apple's guides
+.main-content footer { padding-bottom: 64px; }
+.main-content footer, .main-content footer p { font-size: 12px; line-height: 1.5; color: var(--text-2); }
+.main-content footer .fine-print { display: block; margin: 12px 0; }
+.main-content footer .fine-print a { color: var(--text); font-weight: 600; }
+// Bottom of the left panel: download link + small grey notes (_includes/nav_footer_custom.html)
+.side-bar .site-footer { position: static; box-sizing: border-box; padding: 12px 24px 32px; margin-top: auto; }
+.nav-foot { border-top: 1px solid var(--sep); padding-top: 14px; text-align: center; }
+.nav-foot-os { display: flex; justify-content: center; align-items: center; gap: 10px; margin: 8px 0 0; color: var(--text-3); }
+.nav-foot-link { display: flex; justify-content: center; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--blue) !important; background-image: none; }
+.nav-foot-link:hover { opacity: 0.7; }
+.nav-foot-note { margin: 4px 0 0; font-size: 12px; line-height: 1.4; color: var(--text-3); }
+@media (min-width: 50rem) { .side-bar { display: flex; flex-direction: column; } .side-bar .site-nav { flex: 1 1 auto; } }
+@media (max-width: 49.99rem) { .side-bar .site-footer { display: none; } }
+
+// Top space for headings, also when a link jumps straight to one (owner: title was stuck to the top on load)
+.main-content h1, .main-content h2, .main-content h3 { scroll-margin-top: 32px; }
+.main-content > h1:first-child, .main-content > :first-child h1:first-child { margin-top: 32px; }
+
+// Breadcrumb above the title, small grey with › like Apple's guides
+.breadcrumb-nav { margin-top: 24px; }
+.breadcrumb-nav-list-item { font-size: 13px; color: var(--text-2); }
+.breadcrumb-nav-list-item a { color: var(--text-2); font-weight: 400; }
+.breadcrumb-nav-list-item a:hover { color: var(--text); }
+.breadcrumb-nav-list-item::after { content: "\203A" !important; color: var(--text-3); margin: 0 6px; }
+.breadcrumb-nav-list-item:last-child::after { content: none !important; }
+
+// Back to top: quiet grey link
+#back-to-top { font-size: 13px; color: var(--text-2); font-weight: 400; }
+
+// Previous / Next at the end of each page, like Apple's guides (script in _includes/head_custom.html)
+.main-content .page-nav { display: flex; justify-content: space-between; gap: 16px; margin: 48px 0 32px; padding-top: 20px; border-top: 1px solid var(--sep); }
+.main-content .page-nav a { display: flex; flex-direction: column; gap: 2px; font-size: 17px; max-width: 48%; }
+.main-content .page-nav a.next { margin-left: auto; text-align: right; }
+.main-content .page-nav small { font-size: 13px; font-weight: 400; color: var(--text-2); }
+
+// Diagrams (How It All Connects): soft grey card, rounded boxes, centred
+.main-content div.language-mermaid { background: var(--fill) !important; border: 0; border-radius: 18px; padding: 32px 24px; margin: 24px 0 32px; text-align: center; overflow-x: auto; }
+.main-content div.language-mermaid .highlight, .main-content div.language-mermaid pre, .main-content div.language-mermaid code { background: transparent !important; border: 0; padding: 0; margin: 0; }
+.main-content div.language-mermaid svg { max-width: 100%; height: auto; }
+.main-content div.language-mermaid .mindmap-node rect, .main-content div.language-mermaid .mindmap-node path, .main-content div.language-mermaid .mindmap-node circle { stroke: var(--sep-strong); stroke-width: 1px; }
+.main-content div.language-mermaid path[class*="section-edge"] { stroke: var(--text-3) !important; stroke-width: 1.5px !important; }
+.main-content div.language-mermaid .node rect, .main-content div.language-mermaid .cluster rect, .main-content div.language-mermaid .mindmap-node rect { rx: 8px; ry: 8px; }
+
+// Search: like Spotlight on the Mac, a rounded field with a magnifier; results in a floating rounded panel, blue highlight
+.search-input-wrap { border-radius: 10px; }
+.search-input { height: 36px; padding: 6px 12px 6px 36px; font-size: 15px; border: 0; box-shadow: none; }
+.search-input::placeholder { color: var(--text-3); }
+.search-input:focus { box-shadow: 0 0 0 3px var(--blue-tint); outline: 0; }
+.search-label { padding-left: 12px; }
+.search-label .search-icon { width: 16px; height: 16px; color: var(--text-3); }
+.search-results { border: 1px solid var(--sep); overflow: hidden; }
+.search-results-list { padding: 6px; }
+.search-results-list-item { padding: 0; border-radius: 8px; overflow: hidden; }
+.search-result { padding: 8px 12px; border-radius: 8px; color: var(--text); background-image: none; }
+.search-result:hover, .search-result.active { background: var(--blue) !important; }
+.search-result:hover *, .search-result.active * { color: #fff !important; }
+.search-result-title { font-size: 15px; font-weight: 600; }
+.search-result-doc .search-result-icon, .search-result-section .search-result-icon { display: none; }
+.search-result-previews { border-left: 0; padding-left: 0; font-size: 13px; color: var(--text-2); }
+.search-result-highlight { font-weight: 600; background: transparent; }
+.search-no-result { font-size: 15px; color: var(--text-2); padding: 12px 16px; }
+.search-overlay { background: rgba(0, 0, 0, 0.18); -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+
+// Live app map (How It All Connects, assets/js/app-map.js): grey card, white pill bubbles, grey lines, blue on hover
+.main-content .app-map { position: relative; background: var(--fill); border-radius: 18px; margin: 24px 0 12px; overflow: hidden; user-select: none; -webkit-user-select: none; }
+.main-content .app-map .app-map-data { background: transparent; border: 0; margin: 0; padding: 24px; font-size: 14px; }
+.main-content .app-map.is-live .app-map-data { display: none; }
+.main-content .app-map svg { display: block; width: 100%; height: 100%; }
+.app-map .map-link { stroke: var(--text-3); stroke-opacity: 0.55; transition: stroke 0.2s, stroke-opacity 0.2s; }
+.app-map .map-node { cursor: grab; touch-action: none; outline: none; transition: opacity 0.2s; }
+.app-map.is-dragging .map-node { cursor: grabbing; }
+.app-map .map-node rect, .app-map .map-node circle { fill: var(--bg); stroke: var(--sep-strong); stroke-width: 1px; transition: fill 0.2s, stroke 0.2s; }
+.app-map .map-node text { fill: var(--text); font-size: 13px; pointer-events: none; }
+.app-map .map-node.depth-1 text { font-size: 14px; font-weight: 600; }
+.app-map .map-node.depth-0 text { font-size: 15px; font-weight: 600; }
+.app-map.has-focus .map-node:not(.is-near) { opacity: 0.35; }
+.app-map.has-focus .map-link:not(.is-near) { stroke-opacity: 0.15; }
+.app-map .map-link.is-near { stroke: var(--blue); stroke-opacity: 0.8; }
+.app-map .map-node.is-near rect, .app-map .map-node.is-near circle { stroke: var(--blue); }
+.app-map .map-node:focus-visible rect, .app-map .map-node:focus-visible circle { stroke: var(--blue); stroke-width: 3px; }
+.app-map .map-group { fill: var(--text-2); font-size: 12px; font-weight: 600; letter-spacing: 0.02em; text-transform: uppercase; }
+.app-map .map-arrow { fill: var(--text-3); }
+.app-map .map-link { fill: none; }
+.app-map .map-link.is-dotted { stroke-dasharray: 4 4; }
+.app-map .map-label { pointer-events: none; }
+.app-map .map-label rect { fill: var(--fill); }
+.app-map .map-label text { fill: var(--text-2); font-size: 12px; font-weight: 500; }
+.main-content .app-map-hint { font-size: 13px; color: var(--text-2); text-align: center; margin: 0 0 32px; }

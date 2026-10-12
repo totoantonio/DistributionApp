@@ -7,7 +7,7 @@
 <p align="center"><img src="assets/hero.png" alt="Distribution App on a Mac and an iPhone"></p>
 <p align="center"><sub>Shown in Demo Mode. All stores, people, addresses, part numbers, and prices are made up. Brand names belong to their owners and appear only as examples — we are not affiliated with them.</sub></p>
 
-<p align="right"><a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
+<p align="right"><a href="https://totoantonio.github.io/DistributionApp/"><strong>📖 User Guide</strong></a> &nbsp;·&nbsp; <a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
 
 ## From Order to Collection — In One Place
 
@@ -101,6 +101,7 @@ Finished and being tested now:
 - **Clearer Customer Contacts** — Other contact person, their position or relation, and their mobile number, each on its own line; long Facebook links shortened.
 - **A Start Page for Each Person** — The warehouse can open straight to Stock Arrivals, the cashier to Invoices — set per user.
 - **Delivery and Payroll, Step by Step** — Help now shows how deliveries and payroll flow, from packing to delivered and from payroll to remittance.
+- **Demo Always Open** — Explore the Demo Company anytime, even after your free trial ends. Add orders, approve them, try every feature — it's all sample data.
 
 ## Pricing
 
@@ -134,6 +135,38 @@ You can always see your date in the app: **License → Updates and Support · Un
 - **Founding Customers:** The first customers get 20% off, locked in for life.
 - **Optional Setup Help:** Remote onboarding (price list import, staff phones, remote access) — about ₱5,000.
 - **Support:** By email at **alfiesuperhalk@<!-- -->gmail.com**, business hours, reply within 1 business day.
+
+## System Requirements
+
+The app runs on **one main computer** in your office. Everyone else — staff, salesmen, drivers — just opens it in a web browser on their own phone or computer. Nothing to install on their devices.
+
+### Main Computer
+
+| | Mac | Windows |
+|---|---|---|
+| **System** | macOS 13 Ventura or later | **Windows 11, 64-bit** (recommended). Windows 10 64-bit also runs it, but Microsoft no longer supports Windows 10. Not for Windows in S mode, Windows 10 on ARM, or 32-bit Windows |
+| **Processor** | Apple silicon (M1 or newer) or Intel | Any 64-bit Intel or AMD processor. Windows 11 on ARM runs it through Windows' built-in emulation |
+| **Memory (RAM)** | 4 GB minimum, 8 GB recommended | 4 GB minimum, 8 GB recommended |
+| **Free disk space** | 2 GB (the app, your data, and 14 days of automatic backups) | 2 GB |
+| **Browser** | Google Chrome or Microsoft Edge recommended (opens as its own app window); Safari 16.4+ also works | Microsoft Edge or Google Chrome |
+
+On Windows the app isn't code-signed yet, so the first time you open it Windows shows **"Windows protected your PC"** — click **More info → Run anyway**. The Windows version hasn't been tested on every PC yet; if anything doesn't work, email us.
+
+The app itself uses very little — usually under 100 MB of memory, even with your whole team connected. Keep the main computer **on and awake** during business hours (Settings → Start Up shows how).
+
+### Staff Phones and Computers
+
+| Device | What's needed |
+|---|---|
+| **iPhone / iPad** | iOS / iPadOS 16.4 or later, Safari |
+| **Android** | A recent version of Google Chrome |
+| **Computers** | Chrome, Edge or Safari 16.4+ (any recent version), on any system |
+
+### Network
+
+- **In the office:** the main computer and staff devices on the same Wi-Fi or office network. No internet needed.
+- **Outside the office (optional):** internet on both ends and a free [Tailscale](https://tailscale.com) account — turn it on in Settings → Remote Access.
+- **Printing:** any printer the main computer or a staff computer can already print to (A4 forms, printed from the browser).
 
 ## How to Update
 
@@ -214,6 +247,17 @@ Yes — a free 15-day trial with up to 20 users and every add-on, plus a **Demo 
 
 **How do I move from my old system or spreadsheets?**
 Import your price lists from PDF, Excel, or CSV in minutes, and add customers by uploading their filled-in information sheet. Optional setup help is available — we'll do it with you.
+
+## User Guide
+
+The **[Distribution App User Guide](https://totoantonio.github.io/DistributionApp/)** walks you through everything, one task per page:
+
+- **Getting Started** — install on Mac or Windows, try the demo, set up your company, connect your staff
+- **Selling, Collecting, Buying and Stock, Money and Books, Settings** — every page explained step by step
+- **How It All Connects** — live diagrams you can drag around to see how orders, payments and stock flow into your books
+- **Troubleshooting** — quick fixes for common questions
+
+Works on any computer or phone, in Light and Dark Mode.
 
 ## Need Help?
 

@@ -1,0 +1,9 @@
+---
+layout: null
+sitemap: false
+---
+# Every search engine and AI assistant may read the whole guide.
+User-agent: *
+Allow: /
+
+Sitemap: {{ "/sitemap.xml" | absolute_url }}

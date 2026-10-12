@@ -1,0 +1,49 @@
+# User Guide — GitHub Pages (Settings → Pages → Branch: main, folder: /docs). Theme: Just the Docs (sidebar, search).
+title: Distribution App
+description: How to install and use Distribution App, wholesale distribution software for Philippine distributors, step by step.
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag # page titles, descriptions and share previews for Google, AI tools and chat apps
+  - jekyll-sitemap # sitemap.xml so search engines find every page
+lang: en
+author: totoantonio
+logo: /assets/images/logo.png
+defaults: # picture used when a page is shared (Messenger, Viber, Slack...)
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo.png
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+aux_links:
+  "Download the App":
+    - "https://github.com/totoantonio/DistributionApp/releases/latest"
+aux_links_new_tab: true
+footer_content: >- # Apple-style fine print at the bottom of every page
+  <span class="fine-print">Not all features are available in every copy of Distribution App. Some features, such as Payment QR
+  Code, Salesman Locations and Signed Delivery Receipts, are add-ons that must first be switched on in Settings › Features.
+  Once the free trial ends, the app needs an activation code. Distribution App runs on Mac and Windows; staff phones and tablets connect through the office
+  computer on the same Wi-Fi network. Tax records, receipts and reports follow Philippine (BIR) rules and may not suit
+  businesses in other countries. Screens in this guide show the Demo Company — all names, addresses and prices are made up —
+  and may look slightly different from your version of the app. Features may change without notice. Learn more at
+  <a href="https://github.com/totoantonio/DistributionApp">github.com/totoantonio/DistributionApp</a>.</span>
+  Copyright © 2026 totoantonio. All rights reserved.
+mermaid: # diagrams drawn from text in ```mermaid blocks (How It All Connects)
+  version: "10.9.1"
+callouts: # {: .note } / {: .important } / {: .warning } boxes in the pages
+  note:
+    title: Note
+    color: purple
+  important:
+    title: Important
+    color: blue
+  warning:
+    title: Warning
+    color: red
+  tip:
+    title: Tip
+    color: green
