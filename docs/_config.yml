@@ -7,6 +7,7 @@ plugins:
   - jekyll-seo-tag # page titles, descriptions and share previews for Google, AI tools and chat apps
   - jekyll-sitemap # sitemap.xml so search engines find every page
 lang: en
+permalink: pretty # every page at a clean address ending in / (how-it-connects/), matching the guide's links
 author: totoantonio
 logo: /assets/images/logo.png
 defaults: # picture used when a page is shared (Messenger, Viber, Slack...)
