@@ -7,7 +7,7 @@
 <p align="center"><img src="assets/hero.png" alt="Distribution App on a Mac and an iPhone"></p>
 <p align="center"><sub>Shown in Demo Mode. All stores, people, addresses, part numbers, and prices are made up. Brand names belong to their owners and appear only as examples — we are not affiliated with them.</sub></p>
 
-<p align="right"><a href="https://totoantonio.github.io/DistributionApp/"><strong>📖 User Guide</strong></a> &nbsp;·&nbsp; <a href="../../releases/latest"><strong>Download the Latest Version →</strong></a></p>
+<p align="right"><a href="https://totoantonio.github.io/DistributionApp/"><img src="docs/assets/readme/btn-user-guide.svg" alt="User Guide" height="36"></a>&nbsp;&nbsp;<a href="../../releases/latest"><img src="docs/assets/readme/btn-download.svg" alt="Download the Latest Version" height="36"></a></p>
 
 ## From Order to Collection — In One Place
 
