@@ -13,7 +13,7 @@ It takes about 5 minutes. Have your business registration details and TIN ready.
 
 On the **Welcome** screen, click **Set Up Company**. One page opens with two parts: **Admin Account** and **Company Profile**.
 
-![The Welcome screen — Set Up Company]({{ '/assets/images/getting-started/setup-01-welcome.png' | relative_url }})
+![The Welcome screen — Set Up Company]({{ '/assets/images/getting-started/setup-01-welcome.webp' | relative_url }})
 
 ## 2. Create Your Admin Account
 
@@ -22,7 +22,7 @@ This is **your** login as the owner — it can do everything, including adding s
 - **Username** — for example your first name.
 - **Password** — at least 6 characters. Type it twice.
 
-![Admin account]({{ '/assets/images/getting-started/setup-03-admin.png' | relative_url }})
+![Admin account]({{ '/assets/images/getting-started/setup-03-admin.webp' | relative_url }})
 
 {: .important }
 Write the password down somewhere safe. Only an admin can add or reset other users.
@@ -38,13 +38,13 @@ These details print on your invoices, sales orders and statements. Fields marked
 
 Optional: **company logo**, a **short name** and **tagline** (shown in the sidebar), email, website, Facebook page, and your **bank details** (printed under "Payment Details" so customers know where to pay).
 
-![Company profile]({{ '/assets/images/getting-started/setup-02-company.png' | relative_url }})
+![Company profile]({{ '/assets/images/getting-started/setup-02-company.webp' | relative_url }})
 
 ## 4. Finish
 
 Click **Finish Setup**. You're signed in and the app opens.
 
-![The app after setup]({{ '/assets/images/getting-started/app-01-first-page.png' | relative_url }})
+![The app after setup]({{ '/assets/images/getting-started/app-01-first-page.webp' | relative_url }})
 
 You can change any of this later in **Settings → Company Profile**.
 

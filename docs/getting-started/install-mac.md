@@ -13,19 +13,19 @@ It takes about 2 minutes. You need macOS 13 Ventura or later.
 
 On the [Distribution App page](https://github.com/totoantonio/DistributionApp), click **Download the Latest Version →**. Then click the file ending in **-mac.zip** (for example `DistributionApp-1.3.0-build31-mac.zip`).
 
-![The Distribution App page, with the Download the Latest Version link]({{ '/assets/images/getting-started/mac-01-download.png' | relative_url }})
+![The Distribution App page, with the Download the Latest Version link]({{ '/assets/images/getting-started/mac-01-download.webp' | relative_url }})
 
 ## 2. Unzip
 
 Open your **Downloads** folder and double-click the zip. A **DistributionApp** folder opens with two items: the **DistributionApp** app and **HOW-TO-UPDATE.txt**.
 
-![The unzipped DistributionApp folder]({{ '/assets/images/getting-started/mac-02-downloads-folder.png' | relative_url }})
+![The unzipped DistributionApp folder]({{ '/assets/images/getting-started/mac-02-downloads-folder.webp' | relative_url }})
 
 ## 3. Move It to Applications
 
 Drag **DistributionApp** into the **Applications** folder.
 
-![Dragging DistributionApp into Applications]({{ '/assets/images/getting-started/mac-03-applications.png' | relative_url }})
+![Dragging DistributionApp into Applications]({{ '/assets/images/getting-started/mac-03-applications.webp' | relative_url }})
 
 {: .important }
 Keep the app **outside** your Documents and Desktop folders — macOS asks for extra permission there, and the app may not start.
@@ -34,7 +34,7 @@ Keep the app **outside** your Documents and Desktop folders — macOS asks for e
 
 Double-click **DistributionApp** in Applications. The first time, macOS asks whether you're sure — click **Open**. (The app is notarized by Apple, so this is the normal question for any downloaded app.)
 
-![macOS asking to open an app downloaded from the internet]({{ '/assets/images/getting-started/mac-04-first-open.png' | relative_url }})
+![macOS asking to open an app downloaded from the internet]({{ '/assets/images/getting-started/mac-04-first-open.webp' | relative_url }})
 
 The app opens in its own browser window and shows the **Welcome** screen. Next: [Try the Demo]({{ '/getting-started/demo/' | relative_url }}) or [Set Up Your Company]({{ '/getting-started/first-setup/' | relative_url }}).
 

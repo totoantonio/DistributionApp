@@ -13,7 +13,7 @@ Staff can only open the app while the main computer is on and the app is running
 
 Go to **Settings → Start Up** and turn on **Start When Computer Starts**. The app then starts by itself every time the computer is switched on — no need to open it.
 
-![Settings → Start Up]({{ '/assets/images/getting-started/startup-01-settings.png' | relative_url }})
+![Settings → Start Up]({{ '/assets/images/getting-started/startup-01-settings.webp' | relative_url }})
 
 ## Three Computer Settings
 

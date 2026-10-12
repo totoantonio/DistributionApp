@@ -11,7 +11,7 @@ nav_order: 2
 
 Go to **Sales Orders** → **+ New Sales Order**.
 
-![The Sales Orders page, with the New Sales Order button at the top right]({{ '/assets/images/selling/so-01-new.png' | relative_url }})
+![The Sales Orders page, with the New Sales Order button at the top right]({{ '/assets/images/selling/so-01-new.webp' | relative_url }})
 
 1. Pick the **customer** and the order date.
 2. Add items — choose from the product list (grouped by brand) or search by name or part number.

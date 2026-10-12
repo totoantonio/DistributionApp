@@ -11,7 +11,7 @@ nav_order: 1
 
 Go to **Customers** and click the **New Customer** button at the top right. Fill in the business name (required), contact person, owner, mobile, address and ID details, then save.
 
-![The Customers page, with the New Customer button at the top right]({{ '/assets/images/selling/cust-01-new.png' | relative_url }})
+![The Customers page, with the New Customer button at the top right]({{ '/assets/images/selling/cust-01-new.webp' | relative_url }})
 
 **Have their customer information sheet as a PDF?** Click the round upload icon at the top of the form and pick the PDF. The app fills in the fields it recognizes (they flash blue). Check them before saving. Scanned pictures can't be read; type those by hand.
 

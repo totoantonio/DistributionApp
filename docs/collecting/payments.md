@@ -16,7 +16,7 @@ Go to **Payments** → **Receive Payment**.
 3. Choose the **method** — Cash, Bank Transfer, GCash, Maya, MariBank, Atome, Check or Other — and type the **reference no.** (OR, transfer or check number). The reference is required.
 4. Click **Save Payment**.
 
-![The Receive Payment page]({{ '/assets/images/collecting/pay-01-receive.png' | relative_url }})
+![The Receive Payment page]({{ '/assets/images/collecting/pay-01-receive.webp' | relative_url }})
 
 The payment gets its own number (`PAY-00001`). An invoice that isn't fully paid shows **Partial** with what's still owed.
 

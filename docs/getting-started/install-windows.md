@@ -19,13 +19,13 @@ On the [Distribution App page](https://github.com/totoantonio/DistributionApp), 
 
 Right-click the zip → **Extract All** → **Extract**. Move the extracted **DistributionApp** folder somewhere permanent, for example `C:\DistributionApp`.
 
-![The extracted DistributionApp folder, with the DistributionApp app inside]({{ '/assets/images/getting-started/win-02-extract.png' | relative_url }})
+![The extracted DistributionApp folder, with the DistributionApp app inside]({{ '/assets/images/getting-started/win-02-extract.webp' | relative_url }})
 
 ## 3. Open It
 
 In the **DistributionApp** folder, double-click **DistributionApp** (Type: Application). The first time, Windows shows **"Windows protected your PC"** — click **More info**, then **Run anyway**.
 
-![Windows protected your PC — More info, then Run anyway]({{ '/assets/images/getting-started/win-03-smartscreen.png' | relative_url }})
+![Windows protected your PC — More info, then Run anyway]({{ '/assets/images/getting-started/win-03-smartscreen.webp' | relative_url }})
 
 ## 4. Allow Staff to Connect
 

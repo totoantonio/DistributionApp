@@ -9,7 +9,7 @@ nav_order: 3
 
 The **Approvals** page collects everything waiting for a decision: sales orders, purchase orders, new customers and payment deductions. The sidebar shows how many are waiting.
 
-![The Approvals page]({{ '/assets/images/selling/appr-01-list.png' | relative_url }})
+![The Approvals page]({{ '/assets/images/selling/appr-01-list.webp' | relative_url }})
 
 ## Approve a Sales Order
 

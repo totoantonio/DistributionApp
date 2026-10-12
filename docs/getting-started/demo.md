@@ -13,11 +13,11 @@ Not ready to enter your own company details yet? Explore a complete sample busin
 
 On the **Welcome** screen, click **Explore**.
 
-![The Welcome screen, with Explore outlined]({{ '/assets/images/getting-started/demo-00-welcome.png' | relative_url }})
+![The Welcome screen, with Explore outlined]({{ '/assets/images/getting-started/demo-00-welcome.webp' | relative_url }})
 
 The app fills itself with **Demo Auto Parts**, a made-up distributor in Quezon City, and shows the sign-in screen.
 
-![The sign-in screen]({{ '/assets/images/getting-started/demo-01-login.png' | relative_url }})
+![The sign-in screen]({{ '/assets/images/getting-started/demo-01-login.webp' | relative_url }})
 
 ## Demo Logins
 
@@ -33,7 +33,7 @@ Sign in as different people to see what each one sees. The password is **demo123
 
 The dark bar at the top reminds you that you're in the demo and lists these logins.
 
-![The demo bar at the top of the page]({{ '/assets/images/getting-started/demo-02-demo-bar.png' | relative_url }})
+![The demo bar at the top of the page]({{ '/assets/images/getting-started/demo-02-demo-bar.webp' | relative_url }})
 
 ## Leave the Demo
 

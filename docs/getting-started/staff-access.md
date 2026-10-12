@@ -17,7 +17,7 @@ Go to **Settings → Users & Permissions** and add a user for each person, with 
 
 Open **Staff Access** (bottom of the sidebar). It shows the address to open — with a QR code, **Copy Address** and **Share**.
 
-![The Staff Access page]({{ '/assets/images/getting-started/staff-01-access.png' | relative_url }})
+![The Staff Access page]({{ '/assets/images/getting-started/staff-01-access.webp' | relative_url }})
 
 - **In the Office** — works on the same Wi-Fi or office network. No internet needed. Under the address is a second one ending in **.local** — it keeps working even when the router changes the number.
 - **Outside the Office** — appears after you turn on **Settings → Remote Access** (uses a free Tailscale account). Salesmen can then use the app on mobile data.

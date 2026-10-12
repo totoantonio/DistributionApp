@@ -22,13 +22,13 @@ Delivery moves one step at a time on the invoice page:
 
 Warehouse staff click the next step as they go. The **Invoices** count in the sidebar shows how many are waiting to be packed.
 
-![The delivery steps at the top of an invoice]({{ '/assets/images/selling/inv-02-steps.png' | relative_url }})
+![The delivery steps at the top of an invoice]({{ '/assets/images/selling/inv-02-steps.webp' | relative_url }})
 
 ## The Delivery Page
 
 Drivers use the **Delivery** page in the sidebar. It lists every invoice ready to go, with its delivery instructions and a green round **Mark Delivered** button (✓). Marking an invoice delivered sets its due date: the delivery date plus the customer's terms.
 
-![The Delivery page]({{ '/assets/images/selling/inv-03-delivery.png' | relative_url }})
+![The Delivery page]({{ '/assets/images/selling/inv-03-delivery.webp' | relative_url }})
 
 A **Delivery** login sees only this page and nothing else in the app.
 
