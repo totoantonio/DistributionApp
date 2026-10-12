@@ -264,7 +264,7 @@ a, a:hover, a:focus, .btn, .btn:hover { text-decoration: none !important; backgr
 .nav-foot-note { margin: 4px 0 0; font-size: 12px; line-height: 1.4; color: var(--text-3); }
 @media (min-width: 50rem) { .side-bar { display: flex; flex-direction: column; } .side-bar .site-nav { flex: 1 1 auto; } }
 @media (max-width: 49.99rem) { .side-bar .site-footer, .side-bar > .nav-foot { display: none; } }
-.site-header .site-button { color: var(--blue); } /* phone menu button */
+.site-header .site-button, .site-header .site-button svg { color: var(--blue) !important; fill: currentColor; } /* phone menu button */
 
 // Top space for headings, also when a link jumps straight to one (owner: title was stuck to the top on load)
 .main-content h1, .main-content h2, .main-content h3 { scroll-margin-top: 32px; }
@@ -296,7 +296,7 @@ a, a:hover, a:focus, .btn, .btn:hover { text-decoration: none !important; backgr
 .main-content div.language-mermaid .node rect, .main-content div.language-mermaid .cluster rect, .main-content div.language-mermaid .mindmap-node rect { rx: 8px; ry: 8px; }
 
 // Search: like Spotlight on the Mac, a rounded field with a magnifier; results in a floating rounded panel, blue highlight
-.search-input-wrap { border-radius: 10px; }
+.search-input-wrap { border-radius: 10px; height: 36px !important; } /* same height as the box, so the magnifier centres on the text */
 .search-input { height: 36px; padding: 6px 12px 6px 36px; font-size: 15px; border: 0; box-shadow: none; }
 .search-input::placeholder { color: var(--text-3); }
 .search-input:focus { box-shadow: 0 0 0 3px var(--blue-tint); outline: 0; }
