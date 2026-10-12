@@ -110,13 +110,13 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid 
 .site-header { border-bottom: 0; }
 .site-title {
   display: grid; grid-template-columns: 32px 1fr; column-gap: 10px; align-items: center;
-  font-size: 15px; font-weight: 600; line-height: 1.2; color: var(--text); padding: 32px 20px 16px 24px;
+  font-size: 15px !important; font-weight: 600; line-height: 1.2; color: var(--text); padding: 32px 20px 16px 24px;
 }
 .site-title::before {
   content: ""; grid-row: span 2; width: 32px; height: 32px; border-radius: 8px;
   background: url("../images/logo.png") center / cover no-repeat; // CSS lives in /assets/css/
 }
-.site-title::after { content: "User Guide"; font-size: 12px; font-weight: 400; color: var(--text-2); }
+.site-title::after { content: "User Guide"; font-size: 12px !important; font-weight: 400; color: var(--text-2); }
 .site-title:hover { background-image: none; opacity: 0.85; }
 .site-header, .site-nav { box-sizing: border-box; }
 .site-nav { padding: 4px 16px 24px 16px; }
