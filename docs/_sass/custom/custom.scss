@@ -35,6 +35,8 @@ body, .main-header, .search-results { background: var(--bg); }
 .main-content strong { font-weight: 600; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { color: var(--text); }
 .main-content h1, .main-content h2 { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", Arial, sans-serif; }
+// Android: Google Sans (class + font added by head_custom.html)
+html.android body, html.android .main-content, html.android .side-bar, html.android .site-title, html.android .search-input, html.android .main-content h1, html.android .main-content h2 { font-family: "Google Sans", Roboto, Arial, sans-serif; }
 .anchor-heading svg { color: var(--text-3); }
 .site-footer, .search-label, .search-result-doc-title, .search-result-section { color: var(--text-2); }
 .search-input, .search-result-title { color: var(--text); }

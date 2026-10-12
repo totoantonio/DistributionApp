@@ -71,6 +71,29 @@
     });
   }
 
+  // Phone (portrait): centre on top, then each chapter with its pages in rows under it. Returns the height it needs.
+  function homesTreeTall(data, W) {
+    var root = data.nodes[0], y = 24;
+    root.tx = W / 2; root.ty = y + root.hh; y += 2 * root.hh + 36;
+    data.nodes.filter(function (d) { return d.depth === 1; }).forEach(function (c) {
+      c.tx = W / 2; c.ty = y + c.hh; y += 2 * c.hh + 14;
+      var row = [], rowW = 0;
+      function flush() {
+        var x = (W - rowW + 8) / 2;
+        row.forEach(function (k) { k.tx = x + k.hw; k.ty = y + 14; x += 2 * k.hw + 8; });
+        y += 36; row = []; rowW = 0;
+      }
+      data.links.filter(function (l) { return l.source === c.id; }).forEach(function (l) {
+        var k = data.nodes[l.target], w = 2 * k.hw + 8;
+        if (row.length && rowW + w > W - 16) flush();
+        row.push(k); rowW += w;
+      });
+      if (row.length) flush();
+      y += 22;
+    });
+    return y;
+  }
+
   var ROW = 44, TOP = 52;
   function homesFlow(data, W, H) { // side by side columns, centred vertically
     data.groups.forEach(function (g, gi) {
@@ -100,22 +123,20 @@
     var d3 = window.d3, kind = box.dataset.kind || "tree";
     var data = ({ flow: parseFlow, steps: parseSteps }[kind] || parseTree)(box.querySelector(".app-map-data").textContent);
     var calm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    // Drawn at least this wide; on a phone the whole picture shrinks to fit (pinch to zoom)
-    var W = Math.max(box.clientWidth, { flow: 560, steps: 640 }[kind] || 900), H = heightFor(kind, data, W);
+    // Drawn at least this wide; anything narrower shrinks to fit (pinch to zoom).
+    // Phones (portrait) get a narrow, tall layout instead of a shrunken wide one.
+    var tall = box.clientWidth < 600;
+    var W = Math.max(box.clientWidth, (tall ? { flow: 380, steps: 420 } : { flow: 560, steps: 640 })[kind] || (tall ? 340 : 900)), H;
     box.classList.add("is-live");
-    box.style.height = Math.round(H * box.clientWidth / W) + "px";
-    ({ flow: homesFlow, steps: homesSteps }[kind] || homesTree)(data, W, H);
 
-    var svg = d3.select(box).append("svg").attr("viewBox", [0, 0, W, H]).attr("role", "img")
+    var svg = d3.select(box).append("svg").attr("role", "img")
       .attr("aria-label", box.dataset.label || "Diagram");
     var arrows = kind !== "tree";
     if (arrows) svg.append("defs").append("marker").attr("id", "map-arrow").attr("viewBox", "0 0 10 10").attr("refX", 9).attr("refY", 5)
         .attr("markerWidth", 7).attr("markerHeight", 7).attr("markerUnits", "userSpaceOnUse").attr("orient", "auto")
         .append("path").attr("d", "M0 1 9 5 0 9z").attr("class", "map-arrow");
-    if (kind === "flow") {
-      svg.append("g").selectAll("text").data(data.groups).join("text").attr("class", "map-group")
-        .attr("x", function (g) { return g.x; }).attr("y", function (g) { return g.y; }).attr("text-anchor", "middle").text(function (g) { return g.name; });
-    }
+    var groupText = svg.append("g").selectAll("text").data(data.groups).join("text").attr("class", "map-group")
+      .attr("text-anchor", "middle").text(function (g) { return g.name; });
     var line = svg.append("g").selectAll("path").data(data.links).join("path")
       .attr("class", function (l) { return "map-link" + (l.dotted ? " is-dotted" : ""); });
     if (arrows) line.attr("marker-end", "url(#map-arrow)");
@@ -140,8 +161,21 @@
       d3.select(this).insert("rect", "text").attr("x", -pw / 2).attr("y", -h / 2).attr("width", pw).attr("height", h).attr("rx", h / 2);
     });
 
+    // Homes and height come after the pills are measured (the phone tree packs its rows by pill width)
+    if (kind === "tree" && tall) {
+      H = homesTreeTall(data, W);
+      line.filter(function (l) { return l.source === 0; }).style("display", "none"); // centre lines would cut through the rows
+    } else {
+      H = heightFor(kind, data, W);
+      ({ flow: homesFlow, steps: homesSteps }[kind] || homesTree)(data, W, H);
+    }
+    groupText.attr("x", function (g) { return g.x; }).attr("y", function (g) { return g.y; });
+    svg.attr("viewBox", [0, 0, W, H]);
+    box.style.height = Math.round(H * box.clientWidth / W) + "px";
+
     // Everything starts in the middle and springs out to its home; at home the springs are exactly relaxed
     data.nodes.forEach(function (d) { d.x = W / 2 + (d.tx - W / 2) * 0.08; d.y = H / 2 + (d.ty - H / 2) * 0.08; }); // already pointing home, so nothing tangles
+    if (tall) data.nodes.forEach(function (d) { d.x = W / 2 + (d.tx - W / 2) * 0.3; d.y = d.ty; }); // tall: rows start in place and slide out sideways
     data.links.forEach(function (l) {
       var a = data.nodes[l.source], b = data.nodes[l.target];
       l.rest = Math.hypot(b.tx - a.tx, b.ty - a.ty);
