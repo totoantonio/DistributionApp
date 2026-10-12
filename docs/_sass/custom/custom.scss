@@ -263,7 +263,8 @@ a, a:hover, a:focus, .btn, .btn:hover { text-decoration: none !important; backgr
 .nav-foot-link:hover { opacity: 0.7; }
 .nav-foot-note { margin: 4px 0 0; font-size: 12px; line-height: 1.4; color: var(--text-3); }
 @media (min-width: 50rem) { .side-bar { display: flex; flex-direction: column; } .side-bar .site-nav { flex: 1 1 auto; } }
-@media (max-width: 49.99rem) { .side-bar .site-footer { display: none; } }
+@media (max-width: 49.99rem) { .side-bar .site-footer, .side-bar > .nav-foot { display: none; } }
+.site-header .site-button { color: var(--blue); } /* phone menu button */
 
 // Top space for headings, also when a link jumps straight to one (owner: title was stuck to the top on load)
 .main-content h1, .main-content h2, .main-content h3 { scroll-margin-top: 32px; }
