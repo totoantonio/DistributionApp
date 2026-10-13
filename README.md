@@ -7,7 +7,7 @@
 <p align="center"><img src="assets/hero.png" alt="Distribution App on a Mac and an iPhone"></p>
 <p align="center"><sub>Shown in Demo Mode. All stores, people, addresses, part numbers, and prices are made up. Brand names belong to their owners and appear only as examples — we are not affiliated with them.</sub></p>
 
-<p align="right"><a href="https://totoantonio.github.io/DistributionApp/"><img src="docs/assets/readme/btn-user-guide.svg" alt="User Guide" height="36"></a>&nbsp;&nbsp;<a href="../../releases/latest"><img src="docs/assets/readme/btn-download.svg" alt="Download the Latest Version" height="36"></a></p>
+<p align="right"><a href="https://totoantonio.pages.dev/distribution/userguide/"><img src="docs/assets/readme/btn-user-guide.svg" alt="User Guide" height="36"></a>&nbsp;&nbsp;<a href="../../releases/latest"><img src="docs/assets/readme/btn-download.svg" alt="Download the Latest Version" height="36"></a></p>
 
 ## From Order to Collection — In One Place
 
@@ -250,7 +250,7 @@ Import your price lists from PDF, Excel, or CSV in minutes, and add customers by
 
 ## User Guide
 
-The **[Distribution App User Guide](https://totoantonio.github.io/DistributionApp/)** walks you through everything, one task per page:
+The **[Distribution App User Guide](https://totoantonio.pages.dev/distribution/userguide/)** walks you through everything, one task per page:
 
 - **Getting Started** — install on Mac or Windows, try the demo, set up your company, connect your staff
 - **Selling, Collecting, Buying and Stock, Money and Books, Settings** — every page explained step by step
