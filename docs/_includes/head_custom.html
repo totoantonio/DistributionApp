@@ -5,7 +5,7 @@
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <script>
-// Android: Google Sans instead of the Apple system font (owner, 2026-10-13)
+/* Android: Google Sans instead of the Apple system font (owner, 2026-10-13) */
 if (/Android/i.test(navigator.userAgent)) {
   document.documentElement.classList.add("android");
   var gs = document.createElement("link");
@@ -15,7 +15,7 @@ if (/Android/i.test(navigator.userAgent)) {
 }
 </script>
 <script>
-// Missing screenshot → grey placeholder with icon, the image's description and a note (owner, 2026-10-12).
+/* Missing screenshot → grey placeholder with icon, the image's description and a note (owner, 2026-10-12). */
 (function () {
   var icon = '<svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15.5l-5-5-9 9"/></svg>';
   function swap(img) {
@@ -36,10 +36,10 @@ if (/Android/i.test(navigator.userAgent)) {
 })();
 </script>
 <script>
-// Previous / Next links at the bottom of each page, in menu order (owner, 2026-10-12)
+/* Previous / Next links at the bottom of each page, in menu order (owner, 2026-10-12) */
 document.addEventListener('DOMContentLoaded', function () {
   var links = Array.prototype.slice.call(document.querySelectorAll('.site-nav a.nav-list-link'));
-  var i = -1; // last active link = the page itself (a chapter link is also active on its pages)
+  var i = -1; /* last active link = the page itself (a chapter link is also active on its pages) */
   for (var j = links.length - 1; j >= 0; j--) if (links[j].classList.contains('active')) { i = j; break; }
   var main = document.querySelector('.main-content');
   if (i < 0 || !main) return;
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
     a.appendChild(document.createTextNode(x[0].textContent.trim()));
     nav.appendChild(a);
   });
-  // before the theme's footer (and its dividing line), so the fine print stays last
+  /* before the theme's footer (and its dividing line), so the fine print stays last */
   var foot = main.querySelector(':scope > footer');
   var before = foot && foot.previousElementSibling && foot.previousElementSibling.tagName === 'HR' ? foot.previousElementSibling : foot;
   main.insertBefore(nav, before);
