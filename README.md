@@ -25,7 +25,7 @@ Distributors and wholesalers with **2 to 20 people** — an owner, a few salesme
 
 | | **Distribution App** | Cloud Apps | Spreadsheets |
 | :--- | :---: | :---: | :---: |
-| **10 users** | ₱1,990/mo flat | Per user | Free |
+| **10 users** | $39/mo flat | Per user | Free |
 | **No internet** | Keeps working | Stops | Keeps working |
 | **Your data** | Your office | Their server | Loose files |
 | **Post-dated checks** | Built in | Rarely | By hand |
@@ -91,116 +91,25 @@ Everything above works on your office Wi-Fi, with **no internet at all**. These 
 
 ---
 
-## Coming in the Next Update
-
-Finished and being tested now:
-
-- **Backups Kept Off the Computer** — Every backup is also copied to a USB drive or your Google Drive, OneDrive, or Dropbox folder, chosen with one tap. If the office computer is stolen or breaks, your data is safe somewhere else.
-- **Down Payments and Deposits** — Record money a customer pays in advance, then use it on their invoices later. Refunds too. Your cash, receivables, and books stay exactly right.
-- **Stock Count** — Count the shelf for many products at once, in cases and pieces. The difference shows as you type, and one tap corrects the stock. Print it to count on paper first.
-- **Clearer Customer Contacts** — Other contact person, their position or relation, and their mobile number, each on its own line; long Facebook links shortened.
-- **A Start Page for Each Person** — The warehouse can open straight to Stock Arrivals, the cashier to Invoices — set per user.
-- **Delivery and Payroll, Step by Step** — Help now shows how deliveries and payroll flow, from packing to delivered and from payroll to remittance.
-- **Demo Always Open** — Explore the Demo Company anytime, even after your free trial ends. Add orders, approve them, try every feature — it's all sample data.
-
-## Pricing
-
-One flat price per company — **no per-user fees**. Your data stays on your own computer, and the app works even when the internet is down.
-
-<div align="center">
-
-| Plan | Users | Monthly | Yearly (2 Months Free) | One-Time Purchase |
-| :---: | :---: | :---: | :---: | :---: |
-| **Startup** | 3 | ₱990 | ₱9,900 | ₱19,900 |
-| **Enterprise** | 10 | ₱1,990 | ₱19,900 | ₱39,900 |
-| **Superuser** | 20 | ₱2,990 | ₱29,900 | ₱59,900 |
-
-</div>
-
-- **Free 15-Day Trial** with up to 20 users — no payment needed to start.
-- **Monthly and Yearly Plans** include every update and support while subscribed.
-- **One-Time Purchase** is yours to keep forever, with the first year of updates and support included (see below).
-
-### After the First Year (One-Time Purchase)
-
-The app is yours — **it never stops working**. What the first year includes is new versions and help from us. After that, you choose:
-
-- **Keep going as you are.** Do nothing: your app, your data, and every feature keep working exactly as they do today. You just won't get the newer versions.
-- **Renew updates and support** — Startup ₱3,990 · Enterprise ₱7,990 · Superuser ₱11,990 per year. Email **alfiesuperhalk@<!-- -->gmail.com** — we reply with our GCash and bank details, and once paid we send you a new activation code, and you paste it in **License**. No reinstalling, no re-registering, nothing lost — and you can renew any time, even months later.
-
-You can always see your date in the app: **License → Updates and Support · Until October 11, 2027**. When a new version comes out after your date, the app tells you kindly and shows **Renew** instead of **Install Update** — it never updates itself into something you haven't paid for.
-
-### Also Good to Know
-
-- **Founding Customers:** The first customers get 20% off, locked in for life.
-- **Optional Setup Help:** Remote onboarding (price list import, staff phones, remote access) — about ₱5,000.
-- **Support:** By email at **alfiesuperhalk@<!-- -->gmail.com**, business hours, reply within 1 business day.
-
-## System Requirements
-
-The app runs on **one main computer** in your office. Everyone else — staff, salesmen, drivers — just opens it in a web browser on their own phone or computer. Nothing to install on their devices.
-
-### Main Computer
-
-| | Mac | Windows |
-|---|---|---|
-| **System** | macOS 13 Ventura or later | **Windows 11, 64-bit** (recommended). Windows 10 64-bit also runs it, but Microsoft no longer supports Windows 10. Not for Windows in S mode, Windows 10 on ARM, or 32-bit Windows |
-| **Processor** | Apple silicon (M1 or newer) or Intel | Any 64-bit Intel or AMD processor. Windows 11 on ARM runs it through Windows' built-in emulation |
-| **Memory (RAM)** | 4 GB minimum, 8 GB recommended | 4 GB minimum, 8 GB recommended |
-| **Free disk space** | 2 GB (the app, your data, and 14 days of automatic backups) | 2 GB |
-| **Browser** | Google Chrome or Microsoft Edge recommended (opens as its own app window); Safari 16.4+ also works | Microsoft Edge or Google Chrome |
-
-On Windows the app isn't code-signed yet, so the first time you open it Windows shows **"Windows protected your PC"** — click **More info → Run anyway**. The Windows version hasn't been tested on every PC yet; if anything doesn't work, email us.
-
-The app itself uses very little — usually under 100 MB of memory, even with your whole team connected. Keep the main computer **on and awake** during business hours (Settings → Start Up shows how).
-
-### Staff Phones and Computers
-
-| Device | What's needed |
-|---|---|
-| **iPhone / iPad** | iOS / iPadOS 16.4 or later, Safari |
-| **Android** | A recent version of Google Chrome |
-| **Computers** | Chrome, Edge or Safari 16.4+ (any recent version), on any system |
-
-### Network
-
-- **In the office:** the main computer and staff devices on the same Wi-Fi or office network. No internet needed.
-- **Outside the office (optional):** internet on both ends and a free [Tailscale](https://tailscale.com) account — turn it on in Settings → Remote Access.
-- **Printing:** any printer the main computer or a staff computer can already print to (A4 forms, printed from the browser).
-
-## How to Update
-
-Open **Settings → About** and click **Install Update**. The app checks the download is genuine, saves a backup, keeps the old version, and restarts by itself — about a minute. You can also update by hand, below.
-
-Your data is stored separately from the app, so updating **never deletes or changes your data**. Update only the **main computer** (the one running the app). Staff don't need to do anything.
-
-### Mac
-
-1. **Quit the App** — in the app, click your account icon (top right) → **Quit App**. A backup is saved automatically.
-2. **Download** the Mac file from **[Latest Release](../../releases/latest)** and open it.
-3. **Drag DistributionApp** into the same folder as your old one (for example, Applications). When asked, click **Replace**.
-4. **Open DistributionApp.** Everything is just as you left it.
-
-### Windows
-
-1. **Quit the App** — in the app, click your account icon (top right) → **Quit App**, or close the black DistributionApp window.
-2. **Download** the Windows file from **[Latest Release](../../releases/latest)**.
-3. **Right-click the ZIP → Extract All**, and extract it into the same folder as your old app. When asked, choose **Replace the files in the destination**.
-4. **Double-click DistributionApp.exe.** Everything is just as you left it.
-
-### Good to Know
-
-- **Use the same folder as before.** If you put the new app somewhere else, go to **Settings → Start Up** and switch it **off and on** once, so it starts from the new place.
-- **Staff:** After the update, just refresh the page in their browser.
-- **How do I know there's an update?** The app checks once a day. Admins see **Update Available** at the top of the screen, and **Settings → About → Check for Updates** shows what's new.
-
----
-
 ## Changelog
 
-### Version 1.3.0 (Build 31) — Current · October 11, 2026
+### Version 1.4.0 (Build 32) — Current · October 14, 2026
 
-> **Windows:** Not yet tested on a real Windows PC. The Mac version is tested and notarized by Apple.
+> Tested on Mac and Windows. The Mac version is notarized by Apple.
+
+- **Subscribe Online** — Paste the license key from your receipt email in **License**. Activation codes keep working.
+- **Payments Page** — Receive one payment for several invoices (oldest first), with optional deductions — Wrong Pricing, Support, or Withholding Tax — plus a reference and an attached slip.
+- **Acknowledgment Receipts and In-house Debit Memos** for every payment and deduction.
+- **Down Payments and Deposits** — Record money paid in advance, use it on invoices later, or refund it.
+- **Customer and Supplier Ledgers** — Every bill, payment, and credit in one running balance.
+- **Stock Count** — Count many products at once in cases and pieces; one tap corrects the stock.
+- **Backups Kept Off the Computer** — Also copied to a USB drive or your Google Drive, OneDrive, or Dropbox folder.
+- **A Start Page for Each Person**, and **Review Permissions** — every permission for every user on one sheet.
+- **Demo Always Open** — Explore the Demo Company anytime, even after your free trial ends.
+
+[Full list of changes →](../../releases/tag/v1.4.0-build32)
+
+### Version 1.3.0 (Build 31) — October 11, 2026
 
 - **Proof of Order** — Salesmen attach the customer's signed PO or a photo of the order. Turn on **Require Proof of Order** and no order goes for approval without one.
 - **Your Own Terms on Every Form** — Type `{customer terms}` and each invoice, sales order, and statement fills in that customer's payment terms. Leave it blank and nothing is printed.
@@ -228,7 +137,7 @@ Your data is stored separately from the app, so updating **never deletes or chan
 ## Questions Owners Ask
 
 **What if the office computer breaks?**
-A backup is saved every day and every time the app quits. In the next update, each backup is also copied by itself to a USB drive or your Google Drive, OneDrive, or Dropbox folder — restoring it on a new computer brings everything back.
+A backup is saved every day and every time the app quits, and each backup can also be copied by itself to a USB drive or your Google Drive, OneDrive, or Dropbox folder — restoring it on a new computer brings everything back.
 
 **Do I need internet?**
 No. Staff in the office connect over your Wi-Fi. Internet is only needed for staff outside the office (through Remote Access), for update checks, and for activation.
@@ -236,8 +145,8 @@ No. Staff in the office connect over your Wi-Fi. Internet is only needed for sta
 **Can I see everything from my phone?**
 Yes — on your office Wi-Fi, open it in your phone's browser and add it to your Home Screen; it opens like an app. Want it outside the office too? Turn on **Work From Anywhere**.
 
-**What happens after the first year?**
-Nothing stops. The app keeps working on the version you have. Renew any time for new versions and help — see **After the First Year** above.
+**What if I stop subscribing?**
+Your data stays on your computer. The app turns read-only, so you can still open and print everything, and subscribing again picks up right where you left off.
 
 **Is it BIR-accredited?**
 No. It is not a registered Computerized Accounting System. Tax figures are estimates to help you prepare — please have your accountant check them before filing. Ask your RDO what applies to your business.

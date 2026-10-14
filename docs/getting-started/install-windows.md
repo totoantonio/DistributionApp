@@ -35,7 +35,7 @@ Windows Firewall asks whether to allow the app on networks. Tick **Private netwo
 
 ## 5. Leave the Black Window Open
 
-A small black window shows the app's addresses. **Keep it open** (you can minimize it) — closing it quits the app. The app opens in Microsoft Edge on the **Welcome** screen.
+A small black window shows the app's addresses. **Keep it open the whole time you use the app** — closing it quits the app for everyone, staff phones included. Minimize it instead. The app opens in Microsoft Edge on the **Welcome** screen.
 
 ![The app window showing its addresses]({{ '/assets/images/getting-started/win-05-console.png' | relative_url }})
 
@@ -47,4 +47,4 @@ Next: [Try the Demo]({{ '/getting-started/demo/' | relative_url }}) or [Set Up Y
 - **Your data** lives in `%AppData%\DistributionApp` — separate from the app, so updating never touches it.
 
 {: .note }
-The Windows version is new. If anything on this page looks different on your PC, email us and we'll help.
+If anything on this page looks different on your PC, email us and we'll help.
