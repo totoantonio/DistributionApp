@@ -91,6 +91,98 @@ Everything above works on your office Wi-Fi, with **no internet at all**. These 
 
 ---
 
+## Pricing
+
+One flat price per company — **no per-user fees**. Your data stays on your own computer, and the app works even when the internet is down.
+
+<div align="center">
+
+| Plan | Users | Monthly |
+| :---: | :---: | :---: |
+| **Startup** | 3 | $19 |
+| **Enterprise** | 10 | $39 |
+| **Superuser** | 20 | $59 |
+
+</div>
+
+- **Free 15-Day Trial** with up to 20 users — no payment needed to start.
+- **Every Plan** includes every update and support while you subscribe. Billed monthly, cancel anytime.
+- **Your License Key** arrives by email right after you subscribe — paste it in the app under **License**.
+
+<div align="center">
+
+**[Subscribe →](https://totoantonio.lemonsqueezy.com/checkout/buy/0cbf4e13-03bb-48c3-9239-ef3ea46a7a95)**
+
+</div>
+
+### Also Good to Know
+
+- **Founding Customers:** The first customers get 20% off, locked in for life.
+- **Optional Setup Help:** Remote onboarding (price list import, staff phones, remote access) — ask us for pricing.
+- **Support:** By email at **alfiesuperhalk@<!-- -->gmail.com**, business hours, reply within 1 business day.
+
+## System Requirements
+
+The app runs on **one main computer** in your office. Everyone else — staff, salesmen, drivers — just opens it in a web browser on their own phone or computer. Nothing to install on their devices.
+
+### Main Computer
+
+| | Mac | Windows |
+|---|---|---|
+| **System** | macOS 13 Ventura or later | **Windows 11, 64-bit** (recommended). Windows 10 64-bit also runs it, but Microsoft no longer supports Windows 10. Not for Windows in S mode, Windows 10 on ARM, or 32-bit Windows |
+| **Processor** | Apple silicon (M1 or newer) or Intel | Any 64-bit Intel or AMD processor. Windows 11 on ARM runs it through Windows' built-in emulation |
+| **Memory (RAM)** | 4 GB minimum, 8 GB recommended | 4 GB minimum, 8 GB recommended |
+| **Free disk space** | 2 GB (the app, your data, and 14 days of automatic backups) | 2 GB |
+| **Browser** | Google Chrome or Microsoft Edge recommended (opens as its own app window); Safari 16.4+ also works | Microsoft Edge or Google Chrome |
+
+On Windows the app isn't code-signed yet, so the first time you open it Windows shows **"Windows protected your PC"** — click **More info → Run anyway**. If anything doesn't work, email us.
+
+> **Windows: keep the black DistributionApp window open.** The app runs inside that window — close it and the app quits for everyone, staff phones included. Minimize it instead of closing it.
+
+The app itself uses very little — usually under 100 MB of memory, even with your whole team connected. Keep the main computer **on and awake** during business hours (Settings → Start Up shows how).
+
+### Staff Phones and Computers
+
+| Device | What's needed |
+|---|---|
+| **iPhone / iPad** | iOS / iPadOS 16.4 or later, Safari |
+| **Android** | A recent version of Google Chrome |
+| **Computers** | Chrome, Edge or Safari 16.4+ (any recent version), on any system |
+
+### Network
+
+- **In the office:** the main computer and staff devices on the same Wi-Fi or office network. No internet needed.
+- **Outside the office (optional):** internet on both ends and a free [Tailscale](https://tailscale.com) account — turn it on in Settings → Remote Access.
+- **Printing:** any printer the main computer or a staff computer can already print to (A4 forms, printed from the browser).
+
+## How to Update
+
+Open **Settings → About** and click **Install Update**. The app checks the download is genuine, saves a backup, keeps the old version, and restarts by itself — about a minute. You can also update by hand, below.
+
+Your data is stored separately from the app, so updating **never deletes or changes your data**. Update only the **main computer** (the one running the app). Staff don't need to do anything.
+
+### Mac
+
+1. **Quit the App** — in the app, click your account icon (top right) → **Quit App**. A backup is saved automatically.
+2. **Download** the Mac file from **[Latest Release](../../releases/latest)** and open it.
+3. **Drag DistributionApp** into the same folder as your old one (for example, Applications). When asked, click **Replace**.
+4. **Open DistributionApp.** Everything is just as you left it.
+
+### Windows
+
+1. **Quit the App** — in the app, click your account icon (top right) → **Quit App**, or close the black DistributionApp window.
+2. **Download** the Windows file from **[Latest Release](../../releases/latest)**.
+3. **Right-click the ZIP → Extract All**, and extract it into the same folder as your old app. When asked, choose **Replace the files in the destination**.
+4. **Double-click DistributionApp.exe.** Everything is just as you left it.
+
+### Good to Know
+
+- **Use the same folder as before.** If you put the new app somewhere else, go to **Settings → Start Up** and switch it **off and on** once, so it starts from the new place.
+- **Staff:** After the update, just refresh the page in their browser.
+- **How do I know there's an update?** The app checks once a day. Admins see **Update Available** at the top of the screen, and **Settings → About → Check for Updates** shows what's new.
+
+---
+
 ## Changelog
 
 ### Version 1.4.0 (Build 32) — Current · October 14, 2026
