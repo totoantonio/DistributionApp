@@ -11,7 +11,7 @@ nav_order: 3
 
 The app saves a backup **every day** and **every time it quits**, and keeps the last 14. You can also click **Back Up Now** in **Settings → Backup & Restore**.
 
-![The backup list in Settings → Backup & Restore]({{ '/assets/images/settings/bak-01-list.png' | relative_url }})
+![The backup list in Settings → Backup & Restore]({{ '/assets/images/settings/bak-01-list.webp' | relative_url }})
 
 ## Keep a Copy Somewhere Else
 

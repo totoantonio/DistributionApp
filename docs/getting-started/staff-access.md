@@ -26,8 +26,6 @@ Open **Staff Access** (bottom of the sidebar). It shows the address to open — 
 
 On the phone, open the camera and point it at the QR code, then tap the link.
 
-![Scanning the QR code with the phone camera]({{ '/assets/images/getting-started/phone-01-scan-qr.png' | relative_url }})
-
 Sign in with the username and password you gave them.
 
 ## 4. Add It to the Home Screen (iPhone)
@@ -35,8 +33,6 @@ Sign in with the username and password you gave them.
 In Safari, tap **Share** → **Add to Home Screen** → **Add**. The app then opens full screen from its own icon, like any other app.
 
 ![Share → Add to Home Screen]({{ '/assets/images/getting-started/phone-02-add-home-screen.png' | relative_url }})
-
-![The app icon on the Home Screen]({{ '/assets/images/getting-started/phone-03-home-icon.png' | relative_url }})
 
 On Android, open the browser menu (⋮) → **Add to Home screen**.
 

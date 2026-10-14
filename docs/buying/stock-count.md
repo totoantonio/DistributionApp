@@ -14,7 +14,7 @@ Count your shelves and let the app fix the differences.
 3. Type what you counted — cases and pieces. The difference shows as you type. Leave a row blank to skip it.
 4. Add a note and **Save Count**.
 
-![A few rows of the Stock Count page]({{ '/assets/images/buying/cnt-01-count.png' | relative_url }})
+![A few rows of the Stock Count page]({{ '/assets/images/buying/cnt-01-count.webp' | relative_url }})
 
 Each changed product gets a stock adjustment (reason "Count Correction") in its history.
 

@@ -21,7 +21,7 @@ Sometimes a customer pays less than the invoice amount and tells you why. Record
 
 On **Receive Payment**, beside the invoice, pick the deduction type, type the amount, the reference no. and a reason.
 
-![A deduction on one invoice line of Receive Payment]({{ '/assets/images/collecting/ded-01-add.png' | relative_url }})
+![A deduction on one invoice line of Receive Payment]({{ '/assets/images/collecting/ded-01-add.webp' | relative_url }})
 
 - **Admin** — the deduction applies right away.
 - **Staff** (with permission to record deductions) — it waits on the **Approvals** page. If the admin rejects it, the amount stays owed.

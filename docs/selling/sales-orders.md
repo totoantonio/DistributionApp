@@ -51,8 +51,6 @@ You can attach a signed PO or a photo when creating the order (phones offer the 
 
 If the phone has no connection when you save, the order is **kept on the phone** and an orange "orders waiting to send" note appears. It sends itself once you're back online. The main computer still checks stock, credit and prices when it arrives.
 
-![The orange note for orders waiting to send]({{ '/assets/images/selling/so-02-offline.png' | relative_url }})
-
 {: .note }
 The New Sales Order page must already be open on the phone before the signal drops.
 

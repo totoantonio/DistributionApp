@@ -17,7 +17,7 @@ nav_order: 2
 | **Salesman Locations** *(add-on, Beta)* | Check-ins at customers, where orders were taken, and asking a salesman where they are — only after they agree | Off |
 | **Signed Delivery Receipts** *(add-on)* | Drivers photograph the signed receipt on the Delivery page | Off |
 
-![The switches in Settings → Features]({{ '/assets/images/settings/feat-01-switches.png' | relative_url }})
+![The switches in Settings → Features]({{ '/assets/images/settings/feat-01-switches.webp' | relative_url }})
 
 ## Add-ons
 

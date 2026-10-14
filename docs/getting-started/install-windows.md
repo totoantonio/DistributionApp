@@ -13,7 +13,7 @@ It takes about 2 minutes. You need Windows 10 or 11, 64-bit.
 
 On the [Distribution App page](https://github.com/totoantonio/DistributionApp), click **Download the Latest Version →**. Then click the file ending in **-windows.zip** (for example `DistributionApp-1.3.0-build31-windows.zip`).
 
-![The latest release, with the -windows.zip file outlined]({{ '/assets/images/getting-started/win-01-download.png' | relative_url }})
+![The latest release, with the -windows.zip file outlined]({{ '/assets/images/getting-started/win-01-download.webp' | relative_url }})
 
 ## 2. Extract
 

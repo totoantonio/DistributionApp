@@ -25,7 +25,7 @@ permalink: /settings/
 | **Danger Zone** | Delete the company and start over |
 | **Quit** | Stop the app (a backup is saved) |
 
-![The Settings menu]({{ '/assets/images/settings/set-01-overview.png' | relative_url }})
+![The Settings menu]({{ '/assets/images/settings/set-01-overview.webp' | relative_url }})
 
 Everyone, including staff, also has **[My Account]({{ '/settings/my-account/' | relative_url }})** under their picture.
 

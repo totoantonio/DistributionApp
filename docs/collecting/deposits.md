@@ -13,7 +13,7 @@ A deposit is money a customer pays **before** there's an invoice to apply it to.
 
 Open the customer → **Deposits** card → **Record Deposit**. Type the date, amount, method and reference. It gets its own number (`DEP-00001`).
 
-![The Deposits card on a customer's page]({{ '/assets/images/collecting/dep-01-card.png' | relative_url }})
+![The Deposits card on a customer's page]({{ '/assets/images/collecting/dep-01-card.webp' | relative_url }})
 
 ## Use It on an Invoice
 

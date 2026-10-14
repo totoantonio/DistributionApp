@@ -15,7 +15,7 @@ nav_order: 3
 
 It then raises the quantity to the MOQ if needed.
 
-![A few lines of a suggested purchase order]({{ '/assets/images/buying/po-01-suggested.png' | relative_url }})
+![A few lines of a suggested purchase order]({{ '/assets/images/buying/po-01-suggested.webp' | relative_url }})
 
 You can change any quantity before sending. Each change needs a reason: **Promo**, **Special Discount** or **Accommodated Sales** (a big customer order to cover).
 

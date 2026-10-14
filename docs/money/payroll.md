@@ -19,7 +19,7 @@ nav_order: 2
 
 Type any **absences**, then **Recompute**.
 
-![One payroll run with its totals]({{ '/assets/images/money/pr-02-run.png' | relative_url }})
+![One payroll run with its totals]({{ '/assets/images/money/pr-02-run.webp' | relative_url }})
 
 ## 3. Post It
 

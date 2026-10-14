@@ -9,7 +9,7 @@ nav_order: 3
 
 **Reports** opens with four headline cards — Sales, Receivables, Payables and Inventory Health — and every other report grouped below.
 
-![The four headline cards on the Reports page]({{ '/assets/images/money/rep-01-hub.png' | relative_url }})
+![The four headline cards on the Reports page]({{ '/assets/images/money/rep-01-hub.webp' | relative_url }})
 
 Every report has date shortcuts, filters that apply as you change them, **Print / Save PDF** and **Export CSV**.
 

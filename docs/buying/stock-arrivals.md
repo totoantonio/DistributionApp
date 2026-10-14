@@ -19,7 +19,7 @@ Open the arrival (from a PO, or **Stock Arrivals → New**). For each line you'l
 
 Add the supplier's invoice date and number, an optional note, then **Receive Stock**.
 
-![The Ordered, DR Qty and Received columns of a stock arrival]({{ '/assets/images/buying/arr-01-receive.png' | relative_url }})
+![The Ordered, DR Qty and Received columns of a stock arrival]({{ '/assets/images/buying/arr-01-receive.webp' | relative_url }})
 
 Stock goes up by what you counted, and each product's cost becomes the **average** of old and new stock.
 

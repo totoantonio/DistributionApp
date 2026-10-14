@@ -20,7 +20,7 @@ nav_order: 1
 
 **Settings → Users & Permissions** → add a user: username, password, role. For staff, tick what they may do, grouped by area (sales, payments, stock, reports…). Hover over a permission to see what it allows.
 
-![The permission ticks for a staff user]({{ '/assets/images/settings/usr-01-add.png' | relative_url }})
+![The permission ticks for a staff user]({{ '/assets/images/settings/usr-01-add.webp' | relative_url }})
 
 Your plan sets how many users can be active: **Startup 3, Enterprise 10, Superuser 20**.
 

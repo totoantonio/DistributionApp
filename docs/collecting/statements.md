@@ -11,7 +11,7 @@ nav_order: 5
 
 For one customer: open the customer → **Statement of Account**. It lists every open invoice with what's been paid, the balance and days overdue, plus aging (Current, 1–30, 31–60, 61–90, over 90 days), pending checks and recent payments. Print it or save it as PDF to send.
 
-![The top of a Statement of Account]({{ '/assets/images/collecting/soa-01-customer.png' | relative_url }})
+![The top of a Statement of Account]({{ '/assets/images/collecting/soa-01-customer.webp' | relative_url }})
 
 For everyone: **Reports → Sales → Statement of Account → All Customers** — one line per customer.
 

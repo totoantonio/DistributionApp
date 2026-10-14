@@ -20,7 +20,7 @@ Record the payment with method **Check**, the bank and the **check date**:
 
 **Checks** in the sidebar lists every pending check — from customers and the ones you issued to suppliers. The number beside it counts checks dated **tomorrow or earlier**, so you get a day's notice to deposit them.
 
-![Pending checks on the Checks page]({{ '/assets/images/collecting/chk-02-list.png' | relative_url }})
+![Pending checks on the Checks page]({{ '/assets/images/collecting/chk-02-list.webp' | relative_url }})
 
 For each pending check, pick an action:
 

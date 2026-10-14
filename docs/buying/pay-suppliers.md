@@ -13,7 +13,7 @@ Every received stock arrival is a bill. Its due date is the supplier's invoice d
 
 On the arrival, use **Pay Supplier**: date, amount, method and reference no. The supplier's bank details are shown so you know where to send it.
 
-![The Pay Supplier card on a stock arrival]({{ '/assets/images/buying/pay-01-supplier.png' | relative_url }})
+![The Pay Supplier card on a stock arrival]({{ '/assets/images/buying/pay-01-supplier.webp' | relative_url }})
 
 ## Issue a Post-Dated Check
 

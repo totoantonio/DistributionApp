@@ -17,7 +17,7 @@ Go to **Products** → add a product. Fill in:
 - **SRP, cost and selling price**
 - **Reorder level, MOQ and ideal stock days** — used by suggested purchase orders
 
-![The price boxes on the product form]({{ '/assets/images/buying/prod-01-form.png' | relative_url }})
+![The price boxes on the product form]({{ '/assets/images/buying/prod-01-form.webp' | relative_url }})
 
 {: .note }
 Stock, costs and prices are always per **single unit**. Cases are only a shortcut for entering and showing quantities — "2 Boxes (24 Cans)".
