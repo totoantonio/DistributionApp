@@ -27,7 +27,7 @@ nav_order: 9
 
 ## "Read-only — Activate the App"
 
-The free trial has ended, or the license couldn't be checked. Paste your activation code in **License**. If you renamed your company, the old code won't match — ask for a new one.
+The free trial has ended, or the license couldn't be checked. Paste your license key or activation code in **License**. If you renamed your company, an old activation code won't match — ask for a new one.
 
 ## I Can't Approve an Order
 

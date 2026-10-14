@@ -1,6 +1,6 @@
 # User Guide — GitHub Pages (Settings → Pages → Branch: main, folder: /docs). Theme: Just the Docs (sidebar, search).
 title: Distribution App
-description: How to install and use Distribution App, wholesale distribution software for Philippine distributors, step by step.
+description: How to install and use Distribution App, wholesale distribution software for distributors, step by step.
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 plugins:
   - jekyll-remote-theme
@@ -26,7 +26,7 @@ aux_links_new_tab: true
 footer_content: >- # Apple-style fine print at the bottom of every page
   <span class="fine-print">Not all features are available in every copy of Distribution App. Some features, such as Payment QR
   Code, Salesman Locations and Signed Delivery Receipts, are add-ons that must first be switched on in Settings › Features.
-  Once the free trial ends, the app needs an activation code. Distribution App runs on Mac and Windows; staff phones and tablets connect through the office
+  Once the free trial ends, the app needs a license key or activation code. Distribution App runs on Mac and Windows; staff phones and tablets connect through the office
   computer on the same Wi-Fi network. Tax records, receipts and reports follow Philippine (BIR) rules and may not suit
   businesses in other countries. Screens in this guide show the Demo Company — all names, addresses and prices are made up —
   and may look slightly different from your version of the app. Features may change without notice. Learn more at

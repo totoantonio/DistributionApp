@@ -52,9 +52,9 @@ You can change any of this later in **Settings → Company Profile**.
 
 The app is free to use for **15 days**, with every feature on. After that it turns **read-only**: you can still view, print and export, but not make changes.
 
-To keep working, buy a plan and you'll receive an **activation code**. Click your picture (top right) → **License**, paste the code in **Activation Code**, and click **Activate**. Your data stays as it is.
+To keep working, subscribe to a plan and you'll receive a **license key** by email. Click your picture (top right) → **License**, paste the key in **License Key**, and click **Activate** — this step needs internet. Bought an activation code instead? Paste it in **Activation Code** on the same page. Your data stays as it is.
 
 {: .important }
-The code is made for your company name. If you rename the company later, ask for a new code.
+An activation code is made for your company name. If you rename the company later, ask for a new code.
 
 Next: [Connect Your Staff]({{ '/getting-started/staff-access/' | relative_url }}).

@@ -35,7 +35,7 @@ With a one-time purchase, updates are included until the date on your license. A
 
 ## Your License
 
-Click your picture → **License** to see your plan, add-ons, user limit and updates date, or to paste a new activation code.
+Click your picture → **License** to see your plan, add-ons, user limit and updates date, or to paste a license key or activation code.
 
 ### See Also
 

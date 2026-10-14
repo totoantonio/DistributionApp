@@ -1,6 +1,6 @@
 ---
 title: Home
-description: "User guide for Distribution App, wholesale software for Philippine distributors: orders, invoices, collections, stock, payroll and BIR books."
+description: "User guide for Distribution App, wholesale software for distributors: orders, invoices, collections, stock, payroll and BIR books."
 layout: home
 nav_order: 1
 ---
