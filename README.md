@@ -73,10 +73,10 @@ Everything above works on your office Wi-Fi, with **no internet at all**. These 
 
 - **Sales** — Customers with credit terms, limits, and discounts, sales orders with approval, automatic invoices, delivery tracking (Packed → For Delivery → Delivered), Delivery Receipts, payments, post-dated checks, credit memos, and statements of account.
 - **Inventory** — Products in units and cases, stock arrivals with average cost, suggested purchase orders, price list import (PDF, Excel, or CSV), stock adjustments, and days of stock left.
-- **Money** — Receivables and payables by age, supplier payments, expenses, a 4-week cash forecast, BIR tax estimates and payments, and payroll with government contributions and payslips.
+- **Money** — Receivables and payables by age, supplier payments, expenses, a 4-week cash forecast, BIR tax estimates and payments, tax rate and VAT registration changes from a start date, and payroll with government contributions and payslips.
 - **Accounting** — Income Statement, Balance Sheet, Trial Balance, General Journal, and General Ledger, worked out automatically from your sales, payments, stock, and expenses — nothing to enter twice.
 - **Reports** — Sales by supplier, brand, product, or customer, collection forecast, salesman performance, and CSV export.
-- **Printouts** — A4 Sales Invoice, Sales Order, Delivery Receipt, Statement of Account, Price List, and Business Cards.
+- **Printouts** — A4 Sales Invoice (or printed on your BIR invoice paper), Sales Order, Delivery Receipt, Statement of Account, Price List, and Business Cards.
 - **Your Team** — Roles for Admin, Staff, Salesman, and Delivery; permissions down to each report and whether someone sees cost or profit; an activity log nobody can edit.
 - **Everyday Comfort** — Approvals with a chime, credit holds for overdue customers, Dark Mode, per-person accessibility settings, a clean layout on phones, and one-click updates.
 
@@ -185,7 +185,20 @@ Your data is stored separately from the app, so updating **never deletes or chan
 
 ## Changelog
 
-### Version 1.4.0 (Build 32) — Current · October 14, 2026
+### Version 1.5.1 (Build 34) — Current · October 19, 2026
+
+> The Mac version is tested and notarized by Apple. Not yet tested on a real Windows PC.
+
+- **Works Fully Offline on the Main Computer** — The computer that holds your data keeps working with no internet and no network. Orders save at once instead of waiting to be sent.
+- **Use It in Any Country** — Set your country, currency symbol, tax name (VAT, GST, Sales Tax), tax rate, and tax ID name once at setup.
+- **Tax Changes From a Start Date** — When the law changes a tax rate, or you register for VAT, pick the month it starts. Invoices before it keep their tax, so released invoices never change.
+- **Print on My BIR Form** — Print your invoice on your BIR-registered (ATP) invoice paper, leaving space for what's already printed on it.
+- **System Copy Note** — The plain-paper Sales Invoice says "System Copy - Not Valid For Claim Of Input Tax." so it isn't mistaken for your BIR invoice.
+- **Fixes** — Tables in hidden sections no longer spill out of their card, and document numbers (SO-, INV-) line up on the left again.
+
+[Full list of changes →](../../releases/tag/v1.5.1-build34)
+
+### Version 1.4.0 (Build 32) — October 14, 2026
 
 > Tested on Mac and Windows. The Mac version is notarized by Apple.
 
