@@ -8,7 +8,7 @@ permalink: /settings/
 
 # Settings
 
-**Settings** (admin only) is in the sidebar under Admin. Pick a section on the left:
+**Settings** (admin only) is the gear beside your name at the bottom of the sidebar. Pick a section on the left:
 
 | Section | What It's For |
 |---|---|

@@ -30,6 +30,7 @@ Install, set up your company and connect your staff.
 - [Try the Demo]({{ '/getting-started/demo/' | relative_url }})
 - [Set Up Your Company]({{ '/getting-started/first-setup/' | relative_url }})
 - [Connect Your Staff]({{ '/getting-started/staff-access/' | relative_url }})
+- [Use It Outside the Office]({{ '/getting-started/remote-access/' | relative_url }})
 - [Keep It Running]({{ '/getting-started/keep-running/' | relative_url }})
 
 </div>
@@ -105,6 +106,7 @@ Users, features, backups and updates.
 - [Features and Add-ons]({{ '/settings/features/' | relative_url }})
 - [Backups and Updates]({{ '/settings/backups-updates/' | relative_url }})
 - [My Account]({{ '/settings/my-account/' | relative_url }})
+- [Taxes]({{ '/settings/taxes/' | relative_url }})
 
 </div>
 

@@ -26,7 +26,7 @@ Your plan sets how many users can be active: **Startup 3, Enterprise 10, Superus
 
 ## Start Page
 
-Open a user to choose the page they see after signing in — e.g. Stock Arrivals for the warehouse.
+Open a user to choose the page they see after signing in — e.g. Stock Arrivals for the warehouse. If you don't choose, admins and staff open on the **Dashboard**, salesmen on **My Performance** and drivers on **Delivery**.
 
 ## Review Permissions
 
@@ -37,7 +37,7 @@ Open a user to choose the page they see after signing in — e.g. Stock Arrivals
 **Deactivate** the user — they're signed out everywhere and can't sign in. Their past work stays in the records and the Activity Log.
 
 {: .note }
-Every change in the app is kept in the **Activity Log** (Admin → Activity Log): who, when, from which device, and what changed. It can't be edited or deleted.
+Every change in the app is kept in the **Activity Log** (picture menu at the top right → Activity Log): who, when, from which device, and what changed. It can't be edited or deleted.
 
 ### See Also
 

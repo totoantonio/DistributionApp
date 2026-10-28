@@ -36,6 +36,10 @@ A **Delivery** login sees only this page and nothing else in the app.
 
 On the invoice page, switch between **Sales Invoice** and **Delivery Receipt**, then click the printer. Both print on A4 with your company details. Drivers can open the Delivery Receipt from their Delivery page.
 
+The Sales Invoice printed on plain paper is a system copy. A very light line at the top says **System Copy - Not Valid For Claim Of Input Tax.** Keep issuing your BIR-registered invoices for your customers.
+
+To print on your BIR invoice paper instead, turn on **Print on My BIR Form** (see [Features and Add-ons]({{ '/settings/features/' | relative_url }})). A third choice, **BIR Form**, then appears beside Sales Invoice. It prints the invoice without your letterhead, invoice number and the system copy note.
+
 ## Signed Delivery Receipts (Add-on)
 
 With this add-on turned on in **Settings → Features**, the Delivery page lists recent deliveries, each with a paperclip. Take a photo of the signed receipt (or choose a file), and it's kept with the invoice.

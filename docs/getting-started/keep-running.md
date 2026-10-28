@@ -2,7 +2,7 @@
 title: Keep It Running
 description: "Keep Distribution App available to your staff all day: start it automatically with the computer and stop the main computer from sleeping."
 parent: Getting Started
-nav_order: 6
+nav_order: 7
 ---
 
 # Keep It Running

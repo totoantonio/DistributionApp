@@ -29,7 +29,7 @@ Saved for **you**, on every device you use:
 
 ## Lock or Log Out
 
-From the same menu: **Lock Screen** when you step away (sign in again to return), or **Log Out**.
+From the same menu: **Staff Access**, **Activity Log** (admins), **Lock Screen** when you step away (sign in again to return), or **Log Out**.
 
 ### See Also
 

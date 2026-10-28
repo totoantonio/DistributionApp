@@ -34,6 +34,17 @@ Each salesman is asked once whether to share their location, and can turn it off
 {: .note }
 Phones share location only over a secure (https) address — turn on **Remote Access** first.
 
+## Print on My BIR Form
+
+Turn this on to print invoices on your **BIR-registered (ATP) invoice paper**. Each invoice then has **Sales Invoice | BIR Form | Delivery Receipt**. **BIR Form** prints the whole invoice except your letterhead and invoice number, because your BIR paper already has your business details and serial number.
+
+1. In **BIR Form Setup**, measure the printed parts at the top and bottom of your BIR paper and enter that **space at top** and **space at bottom** (in millimetres).
+2. Print a BIR Form on plain paper, hold it over your BIR paper against the light, and adjust the spaces or **move right** until nothing overlaps.
+3. Keep the app's invoice numbers in step with the serial numbers on your paper.
+
+{: .important }
+Ask your accountant or RDO first whether filling in your ATP forms from the app is allowed for your business.
+
 ### See Also
 
 - [Connect Your Staff]({{ '/getting-started/staff-access/' | relative_url }})

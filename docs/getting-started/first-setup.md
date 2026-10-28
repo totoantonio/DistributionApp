@@ -35,6 +35,7 @@ These details print on your invoices, sales orders and statements. Fields marked
 - **City / municipality** and **Province** (plus street, barangay and ZIP code)
 - **Contact number(s)**
 - **TIN** and **VAT status** (VAT-registered or Non-VAT)
+- **Country**, **currency** and **tax**: leave them blank for the Philippines (₱, VAT 12%, TIN). Outside the Philippines, see [Taxes]({{ '/settings/taxes/' | relative_url }}).
 
 Optional: **company logo**, a **short name** and **tagline** (shown in the sidebar), email, website, Facebook page, and your **bank details** (printed under "Payment Details" so customers know where to pay).
 
@@ -46,7 +47,7 @@ Click **Finish Setup**. You're signed in and the app opens.
 
 ![The app after setup]({{ '/assets/images/getting-started/app-01-first-page.webp' | relative_url }})
 
-You can change any of this later in **Settings → Company Profile**.
+You can change any of this later in **Settings → Company Profile**, except the tax rate once you have invoices. A new rate is added from a start month instead (see [Taxes]({{ '/settings/taxes/' | relative_url }})).
 
 ## Free Trial and Activation
 

@@ -53,6 +53,7 @@ Distributors and wholesalers with **2 to 20 people** — an owner, a few salesme
 - **Customer Forms That Fill Themselves** — Print a Customer Information Sheet on your letterhead, then upload the filled-in PDF and the new customer's details are typed in for you.
 - **Price Lists in Seconds** — Pick your brands and get a neat A4 price list with your contact details. Got a supplier's price list? Import it from PDF, Excel, or CSV.
 - **Smart Purchase Orders** — The app suggests what to reorder from your actual sales, supplier lead times, and minimum orders, and tells you how many days of stock you have left.
+- **Your Day at a Glance** — A Dashboard opens first: sales and collections against last month, overdue invoices, approvals waiting, this week's sales, orders to pack, checks due, and low stock. Hide or fold the sidebar when you want more room.
 - **Approvals That Find You** — A soft chime when an order or new customer needs your OK, on any device.
 - **Books That Do Themselves** — Income Statement, Balance Sheet, Trial Balance, and General Ledger are worked out from your invoices, payments, stock, and expenses. Send your bookkeeper one CSV.
 - **An App on Every Phone** — Add it to the Home Screen and it opens like a real app, even without signal.
@@ -185,7 +186,19 @@ Your data is stored separately from the app, so updating **never deletes or chan
 
 ## Changelog
 
-### Version 1.5.1 (Build 34) — Current · October 19, 2026
+### Version 1.6.0 (Build 35) — Current · October 28, 2026
+
+> The Mac version is tested and notarized by Apple. Not yet tested on a real Windows PC.
+
+- **Dashboard** — The app opens on your day at a glance: sales and collections against last month, overdue invoices, approvals waiting, this week's sales, orders to approve, invoices to pack, checks due, and low stock. Each person sees only what they're allowed to open.
+- **Hide the Sidebar** — One button at the top left, or Control-Command-S (Control-Alt-S on Windows). Fold Sales, Inventory, or Money to keep it short. Remembered for each person.
+- **A Cleaner, Calmer Look** — Smoother text on Mac, a lighter sidebar, clearer icons, and rows separated by space instead of lines.
+- **New Font Choice** — Plus Jakarta Sans, in Settings → Appearance. Included with the app, works offline.
+- **Easier to Find** — Settings is the gear beside your name. Staff Access, Activity Log, and Log Out are in your picture menu.
+
+[Full list of changes →](../../releases/tag/v1.6.0-build35)
+
+### Version 1.5.1 (Build 34) · October 19, 2026
 
 > The Mac version is tested and notarized by Apple. Not yet tested on a real Windows PC.
 
