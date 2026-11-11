@@ -67,8 +67,9 @@ Everything above works on your office Wi-Fi, with **no internet at all**. These 
 - **Salesman Locations (Visits)** <sup>Beta</sup> — Uses the salesmen's phones over Work From Anywhere. Salesmen **Check In** at each customer, and the **Visits** page shows **where each sales order and payment was made and how far from the store**. Need to know where someone is? **Ping** them — with an optional message like *"Pls proceed to Tondo Auto Supply"* — and a pop-up on their phone lets them share their location with one tap. Each salesman agrees once, nothing is tracked in the background, and every request is logged — made with the Data Privacy Act in mind.
 - **Payment QR Code** <sup>Beta</sup> — Upload your GCash or QR Ph code once. Every salesman can show it on their phone or send it as an image or PDF, with a clear reminder printed on it: **salesmen don't accept cash** — checks or QR only, and always ask for an official receipt.
 - **Signed Delivery Receipts** — Drivers snap a photo of the signed delivery receipt (or attach a PDF) right on the Delivery page, so you have proof of every delivery, kept with the invoice.
+- **Connect to Claude** <sup>Beta</sup> — Ask Claude about your business in plain words: *"Where is my business losing money?"*, *"Which customers owe me the most?"*, *"How do I record a payment?"* Claude reads your sales, invoices, stock, and expenses, finds where money leaks, and suggests what to fix. It uses **your own Claude account** and the Claude app on the main computer — set it up in **Settings → Claude AI**. Claude can only read; it can't change anything, and passwords are never shared.
 
-**Each add-on is paid for separately** — Payment QR Code, Salesman Locations, and Signed Delivery Receipts — so you pay only for the ones you use. They are unlocked with your activation code — **ask us for pricing**. Work From Anywhere is included.
+**Each add-on is paid for separately** — Payment QR Code, Salesman Locations, Signed Delivery Receipts, and Connect to Claude — so you pay only for the ones you use. They are unlocked with your activation code — **ask us for pricing**. Work From Anywhere is included.
 
 ## What It Does
 
@@ -186,7 +187,18 @@ Your data is stored separately from the app, so updating **never deletes or chan
 
 ## Changelog
 
-### Version 1.6.0 (Build 35) — Current · October 28, 2026
+### Version 1.7.0 (Build 36) — Current · November 11, 2026
+
+> The Mac version is tested and notarized by Apple. Not yet tested on a real Windows PC.
+
+- **Connect to Claude** <sup>Beta</sup> — A new add-on: ask Claude about your business in plain words, using your own Claude account. A new **Settings → Claude AI** screen shows the connection, each setup step, and example questions to copy.
+- **A Fresh Apple Look** — Floating tab bar on phones, toolbar-style header buttons, a glass sidebar, and faster page loads.
+- **Faster Sales Orders** — One "Add product" field, and the order total with Submit always in view. The app warns you before leaving an unsaved order.
+- **Calmer Pages** — The printed invoice form folds away until you need it, empty lists get a small drawing, and Accessibility has its own place in Settings.
+
+[Full list of changes →](../../releases/tag/v1.7.0-build36)
+
+### Version 1.6.0 (Build 35) · October 28, 2026
 
 > The Mac version is tested and notarized by Apple. Not yet tested on a real Windows PC.
 
